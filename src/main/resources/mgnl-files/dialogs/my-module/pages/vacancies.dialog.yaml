@@ -1,0 +1,19 @@
+actions:
+    commit:
+      class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    cancel:
+      class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+    tabs:
+      - name: tabText
+        label: About
+        fields:
+          - name: title
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Title
+          - name: subtitle
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Subtitle
+          - name: footer
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Footer note

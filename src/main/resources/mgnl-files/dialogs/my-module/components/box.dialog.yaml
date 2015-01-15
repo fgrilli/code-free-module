@@ -1,0 +1,32 @@
+actions:
+    commit:
+      class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    cancel:
+      class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+    tabs:
+      - name: tabPromo
+        label: Promo
+        fields:
+          - name: title
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            i18n: true
+            label: Title
+            required: true
+          - name: subtitle
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            i18n: true
+            label: Subtitle
+            required: true
+          - name: image
+            appName: assets
+            class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+            description: Select an asset
+            i18nBasename: info.magnolia.module.templatingkit.messages
+            label: dialogs.generic.controls.tabImage.image.label
+            required: true
+            targetWorkspace: dam
+            identifierToPathConverter:
+              class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+            contentPreviewDefinition:
+              contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent

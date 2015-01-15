@@ -1,0 +1,4 @@
+dialog: my-module:slideshow
+renderType: freemarker
+templateScript: /my-module/components/slideshow.ftl
+title: Slideshow

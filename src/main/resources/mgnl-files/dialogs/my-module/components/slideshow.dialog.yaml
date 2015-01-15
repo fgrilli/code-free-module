@@ -1,0 +1,49 @@
+actions:
+    commit:
+      class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    cancel:
+      class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+    tabs:
+      - name: tabText
+        label: Slideshow
+        fields:
+          - name: autorotation
+            class: info.magnolia.ui.form.field.definition.CheckboxFieldDefinition
+            defaultValue: false
+            label: Autorotation
+            type: Boolean
+          - name: slideshow
+            class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+            label: Slideshow
+            transformerClass: info.magnolia.ui.form.field.transformer.multi.MultiValueSubChildrenNodePropertiesTransformer
+            field:
+                class: info.magnolia.ui.form.field.definition.CompositeFieldDefinition
+                #layout: vertical throws java.lang.ClassCastException: info.magnolia.ui.form.field.definition.Layout cannot be cast to java.lang.String
+                transformerClass: info.magnolia.ui.form.field.transformer.composite.NoOpCompositeTransformer
+                fields:
+                  - name: icon
+                    class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+                    type: String
+                    options:
+                      - name: cup
+                        label: Cup
+                        value: icon-cup
+                      - name: team
+                        label: Team
+                        value: icon-team
+                      - name: star
+                        label: Star
+                        value: icon-star
+                      - name: sign
+                        label: Sign
+                        value: icon-sign
+                      - name: yin-yang
+                        label: Yin Yang
+                        value: icon-yin-yang
+                      - name: w3-thin
+                        label: W3 Thin
+                        value: icon-w3-thin
+                  - name: text
+                    class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+                    type: String

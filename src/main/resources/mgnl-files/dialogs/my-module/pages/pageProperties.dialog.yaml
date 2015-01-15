@@ -1,0 +1,16 @@
+actions:
+    commit:
+      class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    cancel:
+      class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+    tabs:
+      - name: tabText
+        label: Page properties
+        fields:
+          - name: careers
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Careers
+          - name: contacts
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Contacts

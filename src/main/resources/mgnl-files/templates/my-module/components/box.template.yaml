@@ -1,0 +1,4 @@
+dialog: my-module:box
+renderType: freemarker
+templateScript: /my-module/components/box.ftl
+title: Box

@@ -1,0 +1,4 @@
+dialog: my-module:image
+renderType: freemarker
+templateScript: /my-module/components/image.ftl
+title: Image

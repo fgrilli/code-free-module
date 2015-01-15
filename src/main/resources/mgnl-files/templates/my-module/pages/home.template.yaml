@@ -1,0 +1,43 @@
+  dialog: my-module:pageProperties
+  renderType: freemarker
+  templateScript: /my-module/pages/home.ftl
+  title: My module home test
+  visible: true
+  areas:
+    promo:
+      dialog: my-module:promo
+      templateScript: /my-module/areas/promo.ftl
+      type: list
+      availableComponents:
+        box:
+          id: my-module:components/box
+    about:
+      dialog: my-module:about
+      templateScript: /my-module/areas/about.ftl
+      type: single
+      availableComponents:
+        slideshow:
+          id: my-module:components/slideshow
+      areas:
+        clients:
+          maxComponents: 5
+          templateScript: /my-module/areas/clients.ftl
+          availableComponents:
+            clients:
+              id: my-module:components/image
+    contacts:
+        maxComponents: 1
+        templateScript: /my-module/areas/contacts.ftl
+        type: single
+        availableComponents:
+          form:
+            id: form:components/form
+    benefits:
+        dialog: my-module:benefits
+        templateScript: /my-module/areas/benefits.ftl
+        type: noComponent
+    vacancies:
+        dialog: my-module:vacancies
+        i18nBasename: my.company.messages
+        templateScript: /my-module/areas/vacancies.ftl
+        type: noComponent

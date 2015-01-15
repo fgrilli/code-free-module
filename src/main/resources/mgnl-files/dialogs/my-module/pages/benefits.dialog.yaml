@@ -1,0 +1,73 @@
+actions:
+    commit:
+      class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+    cancel:
+      class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+    tabs:
+      - name: tabRow1
+        label: Row one
+        fields:
+          - name: schedule
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Schedule
+          - name: benefits
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Benefits
+          - name: education
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Education
+      - name: tabRow2
+        label: Row two
+        fields:
+          - name: home
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Home
+          - name: events
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Events
+          - name: workshops
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Contacts
+          - name: pay
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Pay
+          - name: travel
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Travel
+      - name: tabRow3
+        label: Row three
+        fields:
+          - name: vacations
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Vacations
+          - name: sickness
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Sickness
+          - name: support
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Contacts
+          - name: english
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: English
+          - name: sport
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Contacts
+      - name: tabRow4
+        label: Row four
+        fields:
+          - name: trips
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Trips
+          - name: bike
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Bike
+          - name: salary
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Salary revisions
+          - name: shower
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Shower
+          - name: recreation
+            class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+            label: Recreation

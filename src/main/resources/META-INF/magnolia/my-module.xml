@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>my-module</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>5.4/*</version>
+    </dependency>
+    <dependency>
+      <name>dam-templating</name>
+      <version>2.0/*</version>
+    </dependency>
+    <dependency>
+      <name>form</name>
+      <version>2.2/*</version>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <name>magnolia</name>
+      <workspaces>
+        <workspace>jobs</workspace>
+      </workspaces>
+      <nodeTypeFile>/mgnl-nodetypes/jobs-nodetypes.xml</nodeTypeFile>
+    </repository>
+  </repositories>
+</module>

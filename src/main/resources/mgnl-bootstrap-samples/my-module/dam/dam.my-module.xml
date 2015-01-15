@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="my-module" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>32c9ef0e-a6bb-4e99-a57f-ad26255e6d7e</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2014-11-11T16:14:48.153+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2014-11-12T14:29:23.205+01:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="promo">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>cb40692f-93ec-482e-b8ce-0c63addacc17</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2014-11-11T16:15:20.522+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2014-11-12T15:01:31.590+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="ico-office">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9a1d5b74-621e-499b-8289-1b5ad0e53d3a</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-11T16:16:02.680+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-11T16:16:02.680+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>ico-office.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cca8b531-1f2b-48d6-9551-3e3da06f6d2f</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>ico-office.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGc+Cgk8bGluZSBzdHJva2Utd2lkdGg9IjEiIHgxPSIiIHkxPSIiIHgyPSIiIHkyPSIiIHN0cm9rZT0iIzQ0OUZEQiIgb3BhY2l0eT0iIj48L2xpbmU+CjwvZz4KCTxwYXRoIGQ9Ik0zMC4wNjggMTAuNDg4Yy0yLjA5MS01LjEzMi02LjkzOC05LjU5OS0xNC4zNS05LjUwNC0wLjQ3NSAwLTAuOTUgMC4wOTUtMS40MjYgMC4wOTUtMS4xNCAwLjE5LTIuMTg2IDAuMzgtMy4xMzYgMC43Ni00LjI3NyAxLjYxNi03LjQxMyA0LjU2Mi05LjAyOCA4LjkzMy0wLjM4IDAuOTUtMC41NyAxLjk5Ni0wLjc2IDMuMDQxLTAuMzggMi4wOTEtMC4wOTUgNC42NTcgMC40NzUgNi4zNjcgMS40MjYgNC42NTcgNC4zNzIgNy44ODggOC42NDggOS42OTQgMS4wNDUgMC40NzUgMi4yODEgMC43NiAzLjYxMSAxLjA0NSAwLjQ3NSAwIDAuODU1IDAuMDk1IDEuMzMxIDAuMDk1czEuMDQ1IDAgMS41MjEgMGMxLjQyNi0wLjE5IDIuNjYxLTAuMzggMy44OTYtMC43NiA0LjQ2Ny0xLjQyNiA3LjY5OC00LjY1NyA5LjQwOS04LjkzMyAxLjIzNS0zLjEzNiAxLjE0LTcuNjAzLTAuMTktMTAuODM0ek0xMy4zNDIgMjkuODc1Yy0wLjU3LTAuMDk1LTEuMDQ1LTAuMjg1LTEuNjE2LTAuMzh2LTEuMzMxaDEuNjE2djEuNzExek0xNi42NjggMzAuMTZjLTAuNTcgMC0xLjA0NSAwLTEuNjE2IDB2LTEuOTAxaDEuNjE2djEuOTAxek0yMC4wODkgMjkuNTljLTAuNDc1IDAuMDk1LTAuOTUgMC4yODUtMS42MTYgMC4zOHYtMS43MTFoMS42MTZ2MS4zMzF6TTIxLjg5NSAxNi4yODV2MTIuNjRjLTAuMjg1IDAuMjg1LTAuOTUgMC40NzUtMS4zMzEgMC41NyAwLTAuMzggMC4wOTUtMS4yMzUtMC4wOTUtMS41MjEtMC4xOS0wLjE5LTEuOTk2LTAuMjg1LTIuMjgxLTAuMDk1cy0wLjE5IDEuNzExLTAuMTkgMi4xODZjLTAuMjg1IDAtMC41NyAwLjA5NS0wLjg1NSAwLjA5NSAwLTAuNTcgMC4wOTUtMi4wOTEtMC4xOS0yLjI4MS0wLjE5LTAuMDk1LTAuNTctMC4wOTUtMC44NTUtMC4wOTUtMC4zOCAwLTAuNzYgMC0xLjE0IDAtMC40NzUgMC4xOS0wLjI4NSAxLjcxMS0wLjI4NSAyLjI4MS0wLjI4NSAwLTAuNTctMC4wOTUtMC44NTUtMC4wOTUgMC0wLjU3IDAuMDk1LTEuOTk2LTAuMTktMi4xODZzLTIuMDkxLTAuMDk1LTIuMTg2IDAuMDk1Yy0wLjE5IDAuMjg1LTAuMDk1IDEuMDQ1LTAuMDk1IDEuNDI2LTAuNDc1LTAuMTktMC44NTUtMC4zOC0xLjMzMS0wLjU3di0xMi45MjVoNy44ODhjMC40NzUgMCAyLjc1NiAwLjA5NSAzLjA0MSAwIDAuMDk1IDAgMC4wOTUtMC4wOTUgMC4wOTUtMC4wOTV2LTAuMDk1YzAgMC0wLjA5NS0wLjA5NS0wLjA5NS0wLjA5NS0zLjEzNiAwLTYuMjcyIDAtOS41MDQgMC0wLjc2IDAtMi45NDYgMC4yODUtMi44NTEtMC40NzUgMC0wLjE5IDAuMTktMC4yODUgMC4yODUtMC4zOCAxLjA0NSAwIDEuOTk2IDAgMy4wNDEgMGg4LjY0OGMwLjc2IDAgMi41NjYtMC4xOSAyLjY2MSAwLjM4IDAuMTkgMC44NTUtMC44NTUgMC4zOC0xLjIzNSAwLjU3LTAuMTktMC4wOTUtMC4wOTUgMC4yODUtMC4wOTUgMC42NjV6TTI5Ljc4MyAxOS43MDZjLTEuMjM2IDQuMTgyLTMuNzA2IDcuMzE4LTcuNDEzIDkuMDI4di0xMi45MjVjMC4yODUgMCAwLjQ3NSAwIDAuNzYgMCAwLjg1NS0wLjI4NSAwLjY2NS0xLjYxNi0wLjE5LTEuNzExaC0xMC4zNTljLTAuODU1IDAtMy42MTEtMC4xOS00LjA4NyAwLjA5NS0wLjU3IDAuMzgtMC40NzUgMS4zMzEgMC4wOTUgMS42MTYgMC4xOSAwLjA5NSAwLjQ3NSAwLjA5NSAwLjg1NSAwLjA5NXYxMi43MzVjLTMuNjExLTEuOTk2LTYuMDgyLTUuNDE3LTcuMjIzLTkuNzg5LTAuNDc1LTEuOTk2LTAuMjg1LTQuODQ3IDAuMjg1LTYuNTU3IDEuMzMtNC40NjcgMy45OTItNy41MDggNy45ODMtOS4yMTggMC45NS0wLjM4IDEuOTk2LTAuNzYgMy4wNDEtMC45NSAwLjU3LTAuMDk1IDEuMTQtMC4xOSAxLjcxMS0wLjE5IDAuMzggMCAwLjg1NSAwIDEuMjM1IDAgMC40NzUgMCAwLjk1IDAuMDk1IDEuNDI2IDAuMDk1IDAuNzYgMC4xOSAxLjYxNiAwLjI4NSAyLjI4MSAwLjQ3NSAzLjk5MSAxLjIzNiA2LjU1NyAzLjcwNiA4LjQ1OCA3LjAzMyAwLjU3IDAuOTUgMC45NSAyLjE4NiAxLjIzNiAzLjMyNiAwLjU3IDEuOTk2IDAuNDc1IDQuOTQyLTAuMDk1IDYuODQzek0xNS45MDggNi41OTFjLTIuMTg2IDEuNzExLTQuMjc3IDMuMzI2LTYuNDYyIDUuMDM3LTAuNTcgMC40NzUtMS4yMzYgMC45NS0xLjgwNiAxLjQyNi0wLjI4NSAwLjE5LTAuNjY1IDAuMzgtMC44NTUgMC42NjV2MC4xOWMwIDAuMDk1IDAuMDk1IDAuMDk1IDAuMTkgMC4xOSAwLjM4IDAgMi4wOTEtMS42MTYgMi41NjYtMS45MDEgMi4xODYtMS43MTEgNC4yNzctMy4zMjYgNi40NjItNS4wMzcgMi45NDYgMi4yODEgNS45ODcgNC41NjIgOC45MzMgNi45MzhoMC4xOWMwLjA5NSAwIDAuMDk1LTAuMDk1IDAuMDk1LTAuMDk1di0wLjA5NWMtMi4yODEtMS44MDYtNC41NjItMy41MTYtNi44NDMtNS4zMjItMC4zOC0wLjU3LTEuOTk2LTEuOTk2LTIuNDcxLTEuOTk2ek0xNy4yMzggOS4xNTdjMC0wLjE5LTAuOTUtMC45NS0xLjIzNi0wLjk1LTAuMDk1IDAuMDk1LTAuMTkgMC4wOTUtMC4wOTUgMC4yODVzMC45NSAwLjg1NSAxLjIzNiAwLjg1NWMwLTAuMDk1IDAtMC4wOTUgMC4wOTUtMC4xOXpNMTcuOTA0IDkuNjMzYzAgMC0wLjA5NSAwLjA5NS0wLjA5NSAwLjA5NXYwLjE5YzAuMTkgMC4zOCAwLjc2IDAuNjY1IDEuMDQ1IDAuODU1IDAuODU1IDAuNjY1IDEuNzExIDEuMzMxIDIuNTY2IDIuMDkxdjBjLTEuMDQ1IDAtMi4wOTEgMC0zLjEzNiAwLTAuMTktMC45NS0wLjU3LTEuNTIxLTEuMzMxLTEuOTAxLTEuNTIxLTAuNjY1LTMuMDQxIDAuNDc1LTMuMTM2IDEuOTAxaC0yLjk0NmMtMC4zOCAwLTAuOTUtMC4wOTUtMS4wNDUgMC4wOTV2MC4xOWMwIDAgMC4wOTUgMC4wOTUgMC4wOTUgMC4wOTUgMS4wNDUgMCAyLjA5MSAwIDMuMTM2IDAgMC4yODUgMCAwLjk1IDAuMDk1IDEuMTQgMCAwLjA5NSAwIDAuMzgtMS4xNCAwLjQ3NS0xLjMzMSAwLjc2LTAuOTUgMi4zNzYtMC44NTUgMi45NDYgMC4xOSAwLjE5IDAuMjg1IDAuMTkgMC45NSAwLjM4IDEuMTQgMC44NTUgMCAxLjcxMSAwIDIuNTY2IDAgMC41NyAwIDEuMzMxIDAuMDk1IDEuNzExIDAgMCAwIDAtMC4wOTUgMC0wLjA5NSAwLTAuMDk1IDAtMC4wOTUgMC0wLjE5LTAuODU1LTAuODU1LTIuMTg2LTEuNzExLTMuMTM2LTIuNDcxLTAuMjg1LTAuMTktMC43Ni0wLjg1NS0xLjIzNi0wLjg1NXpNMTMuNzIyIDE3LjUyMWMtMC4xOS0wLjM4LTEuNTIxLTAuMTktMi4wOTEtMC4xOS0wLjQ3NSAwLjI4NS0wLjM4IDEuMTQtMC4zOCAxLjkwMSAwIDEuNzExLTAuMzggMS45MDEgMS40MjYgMS45MDEgMC4yODUgMCAwLjY2NSAwLjA5NSAwLjg1NSAwIDAuMzgtMC4xOSAwLjE5LTIuMDkxIDAuMTktMi43NTYgMC4wOTUtMC4yODUgMC4wOTUtMC42NjUgMC0wLjg1NXpNMTMuMzQyIDIwLjc1MmgtMS42MTZ2LTIuOTQ2aDEuNjE2djIuOTQ2ek0xNy4wNDggMTcuNTIxYy0wLjE5LTAuMzgtMS41MjEtMC4xOS0yLjA5MS0wLjE5LTAuNDc1IDAuMjg1LTAuMzggMS4xNC0wLjM4IDEuOTAxIDAgMS43MTEtMC4zOCAxLjkwMSAxLjQyNiAxLjkwMSAwLjI4NSAwIDAuNjY1IDAuMDk1IDAuODU1IDAgMC40NzUtMC4xOSAwLjI4NS0yLjA5MSAwLjI4NS0yLjc1NiAwLTAuMjg1IDAuMDk1LTAuNjY1LTAuMDk1LTAuODU1ek0xNi42NjggMjAuNzUyaC0xLjYxNnYtMi45NDZoMS42MTZ2Mi45NDZ6TTIwLjQ3IDE3LjUyMWMtMC4xOS0wLjM4LTEuNTIxLTAuMTktMi4wOTEtMC4xOS0wLjQ3NSAwLjI4NS0wLjM4IDEuMTQtMC4zOCAxLjkwMSAwIDEuNzExLTAuMzggMS45MDEgMS40MjYgMS45MDEgMC4yODUgMCAwLjY2NSAwLjA5NSAwLjg1NSAwIDAuMzgtMC4xOSAwLjE5LTIuMDkxIDAuMTktMi43NTYgMC4wOTUtMC4yODUgMC4wOTUtMC42NjUgMC0wLjg1NXpNMjAuMDg5IDIwLjc1MmgtMS42MTZ2LTIuOTQ2aDEuNjE2djIuOTQ2ek0xMy43MjIgMjIuNzQ4Yy0wLjE5LTAuMzgtMS41MjEtMC4xOS0yLjA5MS0wLjE5LTAuNDc1IDAuMjg1LTAuMzggMS4xNC0wLjM4IDEuOTAxIDAgMS43MTEtMC4zOCAxLjkwMSAxLjQyNiAxLjkwMSAwLjI4NSAwIDAuNjY1IDAuMDk1IDAuODU1IDAgMC4zOC0wLjE5IDAuMTktMi4wOTEgMC4xOS0yLjc1NiAwLjA5NS0wLjI4NSAwLjA5NS0wLjc2IDAtMC44NTV6TTEzLjM0MiAyNS44ODRoLTEuNjE2di0yLjk0NmgxLjYxNnYyLjk0NnpNMTcuMDQ4IDIyLjc0OGMtMC4xOS0wLjM4LTEuNTIxLTAuMTktMi4wOTEtMC4xOS0wLjQ3NSAwLjI4NS0wLjM4IDEuMTQtMC4zOCAxLjkwMSAwIDEuNzExLTAuMzggMS45MDEgMS40MjYgMS45MDEgMC4yODUgMCAwLjY2NSAwLjA5NSAwLjg1NSAwIDAuMzgtMC4xOSAwLjE5LTIuMDkxIDAuMTktMi43NTYgMC4wOTUtMC4yODUgMC4xOS0wLjc2IDAtMC44NTV6TTE2LjY2OCAyNS44ODRoLTEuNjE2di0yLjk0NmgxLjYxNnYyLjk0NnpNMjAuNDcgMjIuNzQ4Yy0wLjE5LTAuMzgtMS41MjEtMC4xOS0yLjA5MS0wLjE5LTAuNDc1IDAuMjg1LTAuMzggMS4xNC0wLjM4IDEuOTAxIDAgMS43MTEtMC4zOCAxLjkwMSAxLjQyNiAxLjkwMSAwLjI4NSAwIDAuNjY1IDAuMDk1IDAuODU1IDAgMC4zOC0wLjE5IDAuMTktMi4wOTEgMC4xOS0yLjc1NiAwLjA5NS0wLjI4NSAwLjA5NS0wLjc2IDAtMC44NTV6TTIwLjA4OSAyNS44ODRoLTEuNjE2di0yLjk0NmgxLjYxNnYyLjk0NnoiIGZpbGw9IiNmZmZmZmYiPjwvcGF0aD4KPC9zdmc+Cg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-11T16:15:46.502+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-11T16:16:02.681+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-11T16:16:02.681+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>5008</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="logo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>54f4a907-9e9e-46aa-a17d-d8164d0aed30</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-11T17:29:15.946+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-11T17:29:15.946+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>logo.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fdc6f619-1ae0-4501-9f5b-a8c010e233cc</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>logo.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNjM1IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxNjM1IDEwMjQiPgo8Zz4KPC9nPgoJPHBhdGggZD0iTTE0MDYuNTExIDM5NS4zMTNsMTQ3LjE4NC0yNTMuOTU5LTIuMzg0LTEuMzc4YzYuMDA1LTEwLjU4NyA5LjcwNC0yMi42NzQgOS43MDQtMzUuNzIxIDAtNDAuMTYyLTMyLjQ1NC03Mi43MjUtNzIuNDk0LTcyLjcyNS0xLjI2OSAwLTIuNDYxIDAuMzEtMy43MTQgMC4zNzJoLTQzOS41NDFjLTEuMjU0LTAuMDYyLTIuNDQ2LTAuMzcyLTMuNzE0LTAuMzcyLTI2LjQxOSAwLTQ5LjMyNSAxNC4zMzItNjEuOTg1IDM1LjUxOWwtMC4yNDgtMC4xMzktMzIyLjcwNiA1NTkuMzc3di01MjMuOTk4aC0wLjg4M2MtMS4wNTItMzkuMjQ5LTMyLjkxOS03MC43OTEtNzIuMzA4LTcwLjc5MS0yNS45MDggMC00OC40NzMgMTMuNzQzLTYxLjMwMyAzNC4yNWwtMC4yNzktMC4xNTUtMzI2LjgwOCA1NjYuMzQydi01MjYuOTA3aC0wLjYzNWMwLTAuMTcgMC4wNDYtMC4zMSAwLjA0Ni0wLjQ4IDAtNDAuMTYyLTMxLjIzMi03Mi43MjUtNzEuMjcxLTcyLjcyNXMtNzIuNDkzIDMyLjU2NC03Mi40OTMgNzIuNzI1YzAgMC4xNyAwLjA0NiAwLjMxIDAuMDQ2IDAuNDhoLTAuNDM0djgwNi4yNzloMC45NzZjMy45NjIgMzYuNDE2IDM0LjM1OSA2NC44NjMgNzEuNzA0IDY0Ljg2MyAyNC42NyAwIDQ2LjM5OS0xMi40MTMgNTkuNDkzLTMxLjMwOWwwLjQ5NSAwLjI5NCAzMjguMjkzLTU3MC4xNjV2NTI1LjI2NmMtMC4wNDYgMS4xMTQtMC4zMjUgMi4xNjctMC4zMjUgMy4yOTdzMC4yNzkgMi4xODIgMC4zMjUgMy4yOTd2MS4zNjJoMC4xMzljMi40MyAzNy44MjUgMzMuNDYxIDY3LjgzNSA3MS43ODEgNjcuODM1IDMwLjA0MSAwIDU1Ljc3OS0xOC40MTggNjYuNjc0LTQ0LjU4OWw0MjEuNjM0LTczMy44OTMgMC4zMSAwLjU1N2MxMS43NzgtMjIuMDI0IDMyLjkxOS0yMC45NCAzMi45MTktMjAuOTRsMC41MjYtMC41NDJoMjU4LjkyN2wtMTMyLjM1NyAyMjcuNTg3IDAuMjE3IDAuMTI0Yy01LjMwOSAxMC4xMDYtOC42MDQgMjEuNDUxLTguNjA0IDMzLjY3OCAwIDM2LjI3OCAyNi41NDMgNjYuMDg1IDYxLjE2NCA3MS41OGwwLjEwOCAwLjU0MmM4Ni4xNDQgNy40NDQgMTU0LjcwNiA3OS43MzcgMTU0LjcwNiAxNjcuOTg1IDAgOTMuMTg2LTc2LjQ0IDE2OC45OTItMTY5LjMzMSAxNjguOTkycy0xNjguMTM5LTc1LjgzNy0xNjguMTM5LTE2OS4wMjJjMC0zLjA4MCAwLjI5NC02LjA2NyAwLjQ2NS05LjFoLTEuMjg1Yy0yLjE2Ny0zOC4yMTItMzMuNDQ1LTY4LjYwOC03Mi4wOTEtNjguNjA4LTQwLjAzOCAwLTcyLjQ5MyAzMi41NjQtNzIuNDkzIDcyLjcyNSAwIDEuMDUyIDAuMjYzIDIuMDQzIDAuMzEgMy4wODAtMC4wMzEgMC42MzUtMC4wOTMgMS4yNjktMC4wOTMgMS45MDQgMCAxNzMuNjM0IDE0MC4zMTMgMzE0LjM4MSAzMTMuMzkgMzE0LjM4MXMzMTQuNDI2LTE0MC43NDYgMzE0LjQyNi0zMTQuMzgxYy0wLjAzMS0xMjQuNTczLTcyLjk4OS0yMzEuOTItMTc4LjA0NS0yODIuNzkyeiIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPgo8L3N2Zz4K</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-11T17:29:12.807+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-11T17:29:15.948+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-11T17:29:15.948+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>1803</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="ico-clock">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ca1d2797-828c-4396-ad67-842c062c8c26</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T15:01:04.891+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T15:01:04.891+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>ico-clock.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>774e620d-c43e-4cf3-8d9b-1e095114e075</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>ico-clock.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGc+Cgk8bGluZSBzdHJva2Utd2lkdGg9IjEiIHgxPSIiIHkxPSIiIHgyPSIiIHkyPSIiIHN0cm9rZT0iIzQ0OUZEQiIgb3BhY2l0eT0iIj48L2xpbmU+CjwvZz4KCTxwYXRoIGQ9Ik0xNS44NSAxMC4yOTRjMC4wNzUgMCAwLjE1LTAuMDc1IDAuMjI1LTAuMDc1IDAuMDc1LTAuMzc1IDAuMDc1LTAuOTAxIDAuMDc1LTEuMzUxLTAuMDc1IDAtMC4wNzUtMC4wNzUtMC4xNS0wLjA3NXMtMC4xNSAwLTAuMTUgMGMwIDAtMC4wNzUgMC4wNzUtMC4wNzUgMC4wNzUtMC4wNzUgMC4zLTAuMTUgMC45NzYgMCAxLjM1MS0wLjA3NSAwIDAgMCAwLjA3NSAwLjA3NXpNMTAuMzY5IDE4LjkyOGMtMC4xNSAwLjE1LTAuMzc1IDAuMjI1LTAuNTI2IDAuMzc1IDAgMC4wNzUgMC4wNzUgMC4xNSAwLjA3NSAwLjIyNSAwIDAgMC4wNzUgMCAwLjA3NSAwLjA3NSAwLjIyNSAwIDAuNTI2LTAuMTUgMC42MDEtMC4zIDAtMC4wNzUgMC0wLjE1IDAtMC4xNS0wLjA3NSAwLTAuMDc1LTAuMDc1LTAuMTUtMC4wNzUgMC4wNzUtMC4wNzUgMC0wLjE1LTAuMDc1LTAuMTV6TTkuOTE5IDEyLjY5N2MwIDAuMDc1IDAgMC4wNzUgMC4wNzUgMC4xNSAwLjA3NSAwLjE1IDAuMzc1IDAuMyAwLjYwMSAwLjN2MGMwLjA3NS0wLjA3NSAwLjA3NS0wLjA3NSAwLjA3NS0wLjMtMC4xNS0wLjE1LTAuMzc1LTAuMy0wLjYwMS0wLjM3NS0wLjA3NSAwLjA3NS0wLjE1IDAuMTUtMC4xNSAwLjIyNXpNMTAuMjk0IDE2YzAgMC0wLjA3NS0wLjA3NS0wLjA3NS0wLjA3NS0wLjUyNiAwLTEuMDUxIDAtMS41NzcgMGwtMC4wNzUgMC4wNzVjMC4wNzUgMC40NSAxLjM1MSAwLjM3NSAxLjcyNyAwLjIyNSAwLTAuMDc1IDAtMC4xNSAwLTAuMjI1ek0xMi44NDcgMTAuODk1YzAuMDc1LTAuMDc1IDAuMDc1LTAuMDc1IDAuMTUtMC4xNSAwLjA3NS0wLjIyNS0wLjE1LTAuNDUtMC4yMjUtMC42MDEtMC4wNzUgMC0wLjE1IDAtMC4yMjUtMC4wNzUgMCAwLjA3NS0wLjA3NSAwLjA3NS0wLjA3NSAwLjE1LTAuMjI1IDAuMjI1IDAuMDc1IDAuNjc2IDAuMzc1IDAuNjc2ek0yMy4yMDcgMTAuOTdjMC4xNSAwIDAuMTUtMC4wNzUgMC4yMjUtMC4xNSAwLjA3NS0wLjMtMC4zNzUtMC44MjYtMC42NzYtMC45MDEtMC4xNSAwLjA3NS0wLjE1IDAuMDc1LTAuMTUgMC4zIDAuMjI1IDAuMyAwLjM3NSAwLjYwMSAwLjYwMSAwLjc1MXpNOS4wMTggMTAuNDQ0YzEuMDUxLTEuMjc2IDIuNTUzLTIuMzI3IDQuMjc5LTIuODUzIDIuMTAyLTAuNjc2IDQuNjU1LTAuMyA2LjM4MiAwLjQ1IDAuNjAxIDAuMjI1IDEuMDUxIDAuNjc2IDEuNTc3IDAuOTAxIDAuMDc1IDAgMC4wNzUgMCAwLjE1LTAuMDc1czAuMDc1LTAuMDc1IDAuMDc1LTAuMjI1Yy0xLjIwMS0xLjI3Ni0zLjM3OC0xLjgwMi01LjYzMS0xLjk1Mi0wLjMgMC0wLjYwMSAwLTAuOTAxIDAuMDc1LTAuNTI2IDAuMDc1LTAuOTc2IDAuMTUtMS41MDIgMC4zLTEuODc3IDAuNjAxLTMuNTI5IDEuNTAyLTQuNTggMi44NTMtMC4yMjUgMC4yMjUtMS4yNzYgMS41MDItMS4xMjYgMS44MDIgMC4zIDAuMzc1IDEuMDUxLTEuMDUxIDEuMjc2LTEuMjc2ek03LjM2NiAxMy4yOTdjLTAuMDc1LTAuMDc1LTAuMDc1LTAuMDc1LTAuMTUtMC4xNS0wLjA3NSAwLTAuMDc1IDAtMC4xNSAwIDAgMC0wLjA3NSAwLjA3NS0wLjA3NSAwLjA3NS0wLjA3NSAwLjMtMC4zNzUgMC44MjYtMC4zIDEuMTI2IDAuMDc1IDAuMDc1IDAuMDc1IDAuMDc1IDAuMTUgMC4xNSAwLjA3NSAwIDAuMDc1IDAgMC4xNS0wLjA3NSAwLjIyNS0wLjA3NSAwLjQ1LTAuOTc2IDAuMzc1LTEuMTI2ek0xOC45MjggMTAuODk1YzAuMDc1IDAgMC4xNSAwIDAuMjI1LTAuMDc1IDAuMDc1LTAuMTUgMC4yMjUtMC4zIDAuMy0wLjUyNiAwLTAuMDc1LTAuMDc1LTAuMTUtMC4wNzUtMC4yMjUtMC4wNzUgMC0wLjE1IDAtMC4yMjUtMC4wNzUtMC4xNSAwLjE1LTAuMyAwLjM3NS0wLjM3NSAwLjYwMSAwIDAuMjI1IDAuMDc1IDAuMjI1IDAuMTUgMC4zek0xMy41MjIgMjQuNjM0Yy0yLjcwMy0wLjgyNi01LjI1NS0yLjkyOC02LjAwNi01LjcwNi0wLjA3NS0wLjA3NS0wLjE1LTAuMDc1LTAuMy0wLjA3NWwtMC4xNSAwLjE1Yy0wLjA3NSAwLjYwMSAwLjgyNiAxLjk1MiAxLjEyNiAyLjMyNyAxLjI3NiAxLjgwMiAyLjg1MyAzLjAwMyA1LjI1NSAzLjY3OSAwLjYwMSAwLjIyNSAxLjgwMiAwLjUyNiAyLjU1MyAwLjMgMCAwIDAtMC4wNzUgMC4wNzUtMC4wNzUgMC0wLjA3NSAwLTAuMTUgMC0wLjE1cy0wLjA3NS0wLjA3NS0wLjA3NS0wLjA3NWMtMC45MDEtMC4yMjUtMS43MjctMC4xNS0yLjQ3OC0wLjM3NXpNMjEuMTggMTMuMTQ3YzAuMjI1IDAuMDc1IDAuNjAxLTAuMTUgMC42NzYtMC4zIDAtMC4wNzUgMC0wLjE1IDAtMC4yMjUtMC4wNzUtMC4wNzUtMC4wNzUtMC4wNzUtMC4yMjUtMC4wNzUtMC4yMjUgMC4xNS0wLjM3NSAwLjIyNS0wLjUyNiAwLjM3NS0wLjA3NSAwLjE1IDAgMC4xNSAwLjA3NSAwLjIyNXpNMjEuNTU2IDE1Ljg1Yy0wLjA3NSAwLjA3NS0wLjA3NSAwLjA3NS0wLjE1IDAuMTUgMC4wNzUgMC40NSAxLjM1MSAwLjM3NSAxLjcyNyAwLjIyNSAwLTAuMDc1IDAtMC4xNSAwLjA3NS0wLjIyNSAwIDAtMC4wNzUtMC4wNzUtMC4wNzUtMC4wNzUtMC41MjYtMC4wNzUtMS4wNTEtMC4wNzUtMS41NzctMC4wNzV6TTEyLjY5NyAyMS4yNTVjLTAuMTUgMC4xNS0wLjIyNSAwLjMtMC4zIDAuNTI2IDAgMC4xNSAwIDAuMTUgMC4wNzUgMC4yMjUgMC4wNzUgMCAwLjE1IDAgMC4xNSAwLjA3NSAwLjIyNS0wLjA3NSAwLjM3NS0wLjM3NSAwLjM3NS0wLjY3Ni0wLjA3NSAwLTAuMDc1LTAuMDc1LTAuMTUtMC4wNzUtMC4wNzUtMC4wNzUtMC4xNS0wLjA3NS0wLjE1LTAuMDc1ek0yNC40ODQgMTIuMzk2Yy0wLjE1LTAuMjI1LTAuMjI1LTAuNTI2LTAuMzc1LTAuNzUxLTAuMDc1LTAuMDc1LTAuMTUtMC4wNzUtMC4yMjUtMC4wNzUtMC4zIDAuMjI1IDAuMDc1IDAuNzUxIDAuMjI1IDEuMTI2IDAuNDUgMS4wNTEgMC43NTEgMi4zMjcgMC42NzYgMy44MjktMC4wNzUgMi4xNzctMC45MDEgMy44MjktMS45NTIgNS4xMDUgMCAwLjA3NSAwIDAuMTUgMC4wNzUgMC4yMjVzMC4xNSAwLjA3NSAwLjMgMC4wNzVjMS4zNTEtMS4yNzYgMi41NTMtNC42NTUgMS45NTItNy41MDgtMC4yMjUtMC43NTEtMC40NS0xLjQyNi0wLjY3Ni0yLjAyN3pNMTUuOTI1IDAuOTg0Yy04LjI1OSAwLTE0Ljk0MSA2Ljc1Ny0xNC45NDEgMTUuMDE2czYuNjgyIDE1LjAxNiAxNC45NDEgMTUuMDE2YzguMjU5IDAgMTUuMDE2LTYuNzU3IDE1LjAxNi0xNS4wMTZzLTYuNzU3LTE1LjAxNi0xNS4wMTYtMTUuMDE2ek0xNS45MjUgMzAuMTE1Yy03LjczMyAwLTE0LjA0MC02LjM4Mi0xNC4wNDAtMTQuMTE1IDAtNy44MDggNi4zMDctMTQuMTE1IDE0LjA0MC0xNC4xMTUgNy44MDggMCAxNC4xMTUgNi4zMDcgMTQuMTE1IDE0LjExNSAwLjA3NSA3LjczMy02LjMwNyAxNC4xMTUtMTQuMTE1IDE0LjExNXpNMjMuMjA3IDEyLjkyMmMtMS4yMDEtMi44NTMtMy43NTQtNC44OC03Ljg4My00LjgwNS0wLjIyNSAwLTAuNTI2IDAuMDc1LTAuNzUxIDAuMDc1LTAuNTI2IDAuMDc1LTEuMDUxIDAuMjI1LTEuNTc3IDAuNDUtMi4xNzcgMC45MDEtMy43NTQgMi40NzgtNC42NTUgNC42NTUtMS44MDIgNC43MyAxLjI3NiA4Ljg1OSA0LjU4IDEwLjEzNiAwLjkwMSAwLjM3NSAyLjI1MiAwLjc1MSAzLjYwNCAwLjUyNiAzLjM3OS0wLjUyNiA1LjU1Ni0yLjE3NyA2LjY4Mi00Ljk1NSAwLjgyNi0xLjgwMiAwLjc1MS00LjI3OSAwLTYuMDgxek0xNi41MjYgMjMuNTgzYy0xLjI3NiAwLjIyNS0yLjYyOC0wLjIyNS0zLjUyOS0wLjUyNi0zLjAwMy0xLjI3Ni01LjkzMS01LjE4LTQuMjA0LTkuNjEgMC44MjYtMi4xMDIgMi4zMjctMy42MDQgNC40My00LjQzIDAuNDUtMC4xNSAwLjkwMS0wLjIyNSAxLjQyNi0wLjM3NSAwLjIyNSAwIDAuNTI2LTAuMDc1IDAuNzUxLTAuMDc1IDMuODI5IDAgNi4xNTYgMS43MjcgNy4zNTggNC4zNTUgMC41MjYgMS4xMjYgMC45NzYgMi44NTMgMC42MDEgNC41OC0wLjE1IDAuNjAxLTAuMyAxLjIwMS0wLjUyNiAxLjcyNy0xLjEyNiAyLjQwMi0zLjIyOCAzLjgyOS02LjMwNyA0LjM1NXpNMTguODUzIDIxLjI1NWMwIDAtMC4wNzUgMC4wNzUtMC4wNzUgMC4wNzUgMCAwLjA3NSAwIDAuMTUtMC4wNzUgMC4xNSAwLjA3NSAwLjE1IDAuMjI1IDAuMzc1IDAuMyAwLjUyNiAwLjA3NSAwIDAuMTUgMCAwLjIyNSAwczAuMDc1LTAuMDc1IDAuMTUtMC4wNzVjMC0wLjIyNS0wLjE1LTAuMzc1LTAuMjI1LTAuNTI2cy0wLjA3NS0wLjE1LTAuMy0wLjE1ek0yMS4xOCAxOC45MjhjLTAuMDc1IDAuMDc1LTAuMDc1IDAuMDc1LTAuMTUgMC4xNXYwLjA3NWMwLjE1IDAuMTUgMC4zNzUgMC4zNzUgMC42NzYgMC4zNzUgMC0wLjA3NSAwLjA3NS0wLjA3NSAwLjA3NS0wLjE1czAtMC4xNSAwLTAuMjI1Yy0wLjA3NSAwLTAuMzc1LTAuMjI1LTAuNjAxLTAuMjI1ek0xOS43NTQgMTIuMDk2Yy0wLjkwMSAwLjYwMS0xLjU3NyAxLjU3Ny0yLjQwMiAyLjI1Mi0wLjIyNSAwLjIyNS0wLjQ1IDAuNDUtMC42NzYgMC42NzYtMC4zNzUgMC40NS0wLjM3NSAwLjM3NS0xLjA1MSAwLjQ1LTAuMzc1LTAuMy0wLjMtMC43NTEtMC42NzYtMC45MDEtMC4yMjUgMC0wLjM3NSAwLjA3NS0wLjQ1IDAuMjI1LTAuMyAwLjMgMC4xNSAwLjc1MSAwLjUyNiAwLjY3NiAwLjA3NSAwLjE1IDAuMjI1IDAuMjI1IDAuMyAwLjM3NS0wLjkwMS0wLjA3NS0xLjcyNy0wLjIyNS0yLjYyOC0wLjMtMC4zLTAuMDc1LTAuNjc2LTAuMTUtMC45MDEtMC4wNzVsLTAuMDc1IDAuMDc1YzAgMC4wNzUgMCAwLjE1IDAgMC4xNXMwIDAgMCAwLjA3NWMwLjMgMC4xNSAwLjc1MSAwLjE1IDEuMTI2IDAuMjI1IDAuODI2IDAuMDc1IDEuNjUyIDAuMjI1IDIuNDc4IDAuMyAwLjA3NSAwLjM3NSAwLjUyNiAwLjY3NiAwLjkwMSAwLjUyNiAwLjgyNiAwLjgyNiAxLjcyNyAxLjY1MiAyLjU1MyAyLjQ3OCAwLjA3NSAwIDAuMTUtMC4wNzUgMC4yMjUtMC4wNzUgMC0wLjA3NSAwLTAuMTUgMC4wNzUtMC4yMjUgMCAwIDAgMCAwLTAuMDc1LTAuODI2LTAuODI2LTEuNjUyLTEuNjUyLTIuNDc4LTIuNDc4IDAuMTUtMC4xNSAwLjA3NS0wLjQ1IDAtMC42MDEgMS4xMjYtMS4xMjYgMi4zMjctMi4yNTIgMy40NTQtMy4zNzkgMC0wLjMtMC4xNS0wLjM3NS0wLjMtMC4zNzV6TTE2LjA3NSAxNi4xNWMtMC4wNzUgMC4wNzUtMC4wNzUgMC4wNzUtMC4xNSAwLjA3NXMtMC4wNzUgMC0wLjE1LTAuMDc1LTAuMDc1LTAuMDc1LTAuMDc1LTAuMTUgMC0wLjA3NSAwLjA3NS0wLjE1YzAtMC4wNzUgMC4wNzUtMC4wNzUgMC4wNzUtMC4wNzUgMC4wNzUgMCAwLjE1IDAgMC4xNSAwLjA3NSAwLjA3NSAwLjA3NSAwLjA3NSAwLjA3NSAwLjA3NSAwLjE1czAgMC4xNSAwIDAuMTV6TTE1LjkyNSAyMS44NTZjLTAuMDc1IDAtMC4xNSAwLTAuMTUgMHMtMC4wNzUgMC4wNzUtMC4wNzUgMC4wNzVjLTAuMDc1IDAuMy0wLjE1IDAuOTc2IDAgMS4zNTEgMC4wNzUgMC4wNzUgMC4wNzUgMC4wNzUgMC4xNSAwLjE1IDAuMDc1IDAgMC4xNS0wLjA3NSAwLjIyNS0wLjA3NSAwLjA3NS0wLjM3NSAwLjA3NS0wLjkwMSAwLjA3NS0xLjM1MS0wLjA3NS0wLjA3NS0wLjE1LTAuMDc1LTAuMjI1LTAuMTV6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+Cjwvc3ZnPgo=</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T15:01:02.608+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T15:01:04.892+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T15:01:04.892+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>5885</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="ico-people">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>11f574c2-e0e7-4514-a2ff-30fa24a9355a</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T15:01:20.917+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T15:01:20.917+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>ico-people.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f54505be-5368-4d08-881e-0697649bae15</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>ico-people.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGc+Cgk8bGluZSBzdHJva2Utd2lkdGg9IjEiIHgxPSIiIHkxPSIiIHgyPSIiIHkyPSIiIHN0cm9rZT0iIzQ0OUZEQiIgb3BhY2l0eT0iIj48L2xpbmU+CjwvZz4KCTxwYXRoIGQ9Ik0yOS45MzQgMTAuNDMyYy0yLjA5Mi01LjE5Ni03LjAxOS05LjU2MS0xNC40MTktOS40NDgtMC41NjIgMC4wNDUtMS4xMjUgMC4xMTItMS42ODcgMC4xNTctMS4wNTcgMC4yMDItMi4xMTUgMC40MDUtMy4wMzcgMC43NjUtNC4yMjkgMS42NDItNy4yNDQgNC42NTctOC44ODYgOC44ODYtMC4zMzcgMC44NzctMC41NCAxLjg5LTAuNzQyIDIuODc5LTAuNDI3IDIuMTgyLTAuMDkwIDQuNzkxIDAuNDUgNi41NDYgMS4zOTUgNC42MTIgNC4zODcgNy44NTEgOC41OTMgOS42MjggMS4wNTcgMC40NSAyLjI3MiAwLjc2NSAzLjU1NCAxLjAxMiAwLjUxNyAwLjA0NSAxLjAxMiAwLjA5MCAxLjUzIDAuMTM1IDAuNDcyIDAgMC45NDUgMC4wMjMgMS40MTcgMC4wMjMgMS41MDctMC4yMjUgMi44MTItMC4zNiA0LjA3Mi0wLjc2NSA0LjIyOS0xLjMyNyA3LjQ5MS00LjYzNCA5LjEzMy04LjU0OCAxLjQ0LTMuMzk3IDEuNDE3LTcuODczIDAuMDIzLTExLjI3ek0xMS4xNzMgMjkuMjYxYy0wLjk0NS0wLjE4LTEuNjQyLTAuODMyLTIuNDUyLTEuMTQ3IDAuMjkyLTEuMjM3IDAuNjA3LTIuNDc0IDAuOS0zLjcxMiAwLjEzNS0wLjQ5NSAwLjEzNS0xLjEwMiAwLjUxNy0xLjM1IDAuMDkwIDAuMDIzIDAuMjAyIDAuMDIzIDAuMjkyIDAuMDQ1IDAuMjkyIDAuNDUgMC4yMDIgMS4yMzcgMC4zMTUgMS44OSAwLjEzNSAxLjM5NSAwLjI5MiAyLjgxMiAwLjQyNyA0LjIwN3YwLjA2N3pNMTMuNzE1IDI5LjkzNmMwLjQyNy0xLjcxIDAuODMyLTMuMzk3IDEuMjYtNS4xMDYgMC4xOC0wLjY5NyAwLjE4LTEuNjIgMC43NDItMS45NTcgMC4xMTIgMCAwLjE4IDAgMC4yNDcgMC4wNDUgMC4yNDcgMC4xNTcgMC4yOTIgMS4zNSAwLjM2IDEuNzMyIDAuMjkyIDEuOCAwLjU2MiAzLjYyMiAwLjg1NSA1LjQyMS0xLjE3IDAuMDY3LTIuNDI5IDAtMy40NjQtMC4xMzV6TTE5LjgzNCAyOS41OThjMC4zMTUtMS4zMjcgMC41MTctMi43NDQgMC44MS00LjEzOSAwLjEzNS0wLjY3NSAwLjA5MC0xLjM3MiAwLjUxNy0xLjczMmgwLjI5MmMwLjI5MiAwLjI5MiAwLjI0NyAwLjk2NyAwLjMzNyAxLjQ2MiAwLjE4IDEuMTQ3IDAuMzYgMi4yNzIgMC41NCAzLjQxOS0wLjM2IDAuMzgyLTEuODY3IDAuNzg3LTIuNDk3IDAuOTl6TTI5LjgyMSAxOC45NThjLTAuNjUyIDIuNTY0LTEuNjY1IDQuNDA5LTMuMDU5IDYuMTY0LTAuNDcyIDAuNTg1LTEuNjQyIDEuODY3LTIuMzE3IDIuMTgyLTAuMDIzIDAuMDIzLTAuMDIzIDAuMDIzLTAuMDQ1IDAuMDQ1LTAuMTgtMy4zMjktMC4zODItNi42MzYtMC41NjItOS45NjUtMC4wNDUtMC4wMjMtMC4xMTItMC4wNjctMC4xNTctMC4wOTAtMC4xNTcgMC0wLjE4IDAuMDQ1LTAuMjQ3IDAuMTM1IDAuMTggMy40MTkgMC4zMzcgNi44MzkgMC41MTcgMTAuMjU4LTAuNDA1IDAuMjQ3LTAuNzg3IDAuNDcyLTEuMTkyIDAuNzItMC4yMDItMS4zMjctMC40MjctMi42NTQtMC42My0zLjk4Mi0wLjExMi0wLjYwNy0wLjEzNS0xLjMyNy0xLjAxMi0xLjE0Ny0wLjc2NSAwLjE1Ny0wLjY5NyAwLjk2Ny0wLjg1NSAxLjczMi0wLjIwMiAxLjEyNS0wLjQyNyAyLjIyNy0wLjYzIDMuMzUyLTAuMDkwIDAuNDUtMC4yMDIgMC44NzctMC4yOTIgMS4zMjctMC4wNDUgMC4wNDUtMC4xMzUgMC4wNjctMC4yMDIgMC4wOTBoLTAuMDkwYy0wLjI0Ny00LjQwOS0wLjQ3Mi04LjgxOC0wLjcyLTEzLjIyNy0wLjEzNS0wLjA5MC0wLjE4LTAuMTEyLTAuMzM3LTAuMDY3LTAuMTM1IDAuMjQ3IDAgMi44MzQgMC4wNjcgMy4zNTIgMC4xOCAzLjMwNyAwLjM2IDYuNjE0IDAuNTQgOS45MnYwLjEzNWMtMC4zMzcgMC4wNDUtMC42NTIgMC4wOTAtMC45OSAwLjEzNS0wLjI5Mi0xLjk1Ny0wLjYwNy0zLjg5Mi0wLjktNS44NDktMC4xMzUtMC43Mi0wLjAyMy0xLjU5Ny0wLjc0Mi0xLjc1NS0xLjAzNS0wLjIyNS0xLjEwMiAxLjAxMi0xLjI4MiAxLjcxLTAuNDcyIDEuOTEyLTAuOTIyIDMuODAyLTEuMzk1IDUuNzE0LTAuMjkyLTAuMDY3LTAuNjA3LTAuMTEyLTAuOS0wLjE4IDAuNDcyLTQuNDU0IDAuOTQ1LTguOTA4IDEuNDE3LTEzLjM2Mi0wLjA0NS0wLjA0NS0wLjA5MC0wLjA2Ny0wLjEzNS0wLjExMi0wLjA2NyAwLTAuMTEyLTAuMDIzLTAuMTgtMC4wMjMtMC4wMjMgMC0wLjAyMyAwLjAyMy0wLjA0NSAwLjAyMy0wLjEzNSAwLjI0Ny0wLjA5MCAwLjYwNy0wLjE1NyAwLjk0NS0wLjExMiAwLjk2Ny0wLjIwMiAxLjk1Ny0wLjMxNSAyLjkyNC0wLjMzNyAzLjE0OS0wLjY5NyA2LjMyMS0xLjAzNSA5LjQ3MS0wLjA5MC0wLjAyMy0wLjE1Ny0wLjA2Ny0wLjI0Ny0wLjA5MC0wLjE1Ny0wLjExMi0wLjE1Ny0xLjQxNy0wLjIwMi0xLjczMi0wLjExMi0xLjE0Ny0wLjI0Ny0yLjI3Mi0wLjM2LTMuNDE5LTAuMTEyLTAuNjc1LTAuMDIzLTEuMzA1LTAuNDk1LTEuNTk3LTAuMzgyLTAuMjI1LTAuOTIyLTAuMDIzLTEuMDgwIDAuMjQ3LTAuMjcgMC40MjctMC4yOTIgMS4wODAtMC40MjcgMS41OTctMC4yNyAxLjEwMi0wLjU0IDIuMjA1LTAuODEgMy4zMDctMC4zMzctMC4yNDctMC42OTctMC40NzItMS4wMzUtMC43Mi0wLjExMi0wLjI3IDAuMTgtMi4xODIgMC4yNDctMi42MDkgMC4yNy0yLjYwOSAwLjU0LTUuMjE5IDAuODEtNy44MjgtMC4wNDUtMC4wOTAtMC4wNDUtMC4wOTAtMC4xMzUtMC4xMzVzLTAuMTM1IDAtMC4yMjUgMC4wMjNjLTAuMjkyIDAuNTQtMC4yMjUgMi4xODItMC4zNiAyLjkyNC0wLjI3IDIuNDA3LTAuNTE3IDQuODE0LTAuNzg3IDcuMjIxaC0wLjAyMmMtMy40ODctMi42MDktNi4xODYtOC45MzEtNC4yOTctMTQuOTM3IDEuMTctMy42ODkgMy44NjktNi45MjkgNy4yMjEtOC40MTMgMS4wMTItMC40NSAyLjA0Ny0wLjg3NyAzLjIzOS0xLjE3IDAuNjc1LTAuMTggMS4zMjctMC4xMzUgMi4wOTItMC4yNyAwLjQ3Mi0wLjAyMiAwLjk0NS0wLjAyMiAxLjQxNy0wLjA0NSAwLjQwNSAwLjAyMiAwLjc4NyAwLjA2NyAxLjE5MiAwLjA5MCAwLjkgMC4xNTcgMS43NTUgMC4yOTIgMi41NDIgMC41NCA0LjI5NyAxLjM1IDcuMzc4IDQuMzY0IDguOTc2IDguNDEzIDAuMzM3IDAuODc3IDAuNTYyIDEuODQ1IDAuNzY1IDIuODU3IDAuMTU3IDAuODEgMC4yOTIgMS45NTcgMC4xMzUgMi44NzktMC4xMzUgMC44MzItMC4wNjcgMS41NTItMC4yNyAyLjI5NHpNMTYuMDMyIDExLjY5MmMyLjA5Mi0wLjM4MiAyLjA0Ny00LjI3NC0wLjI5Mi00LjI1Mi0wLjg1NSAwLjM2LTEuMjgyIDAuNTQtMS41MyAxLjUwNy0wLjMxNSAxLjI2IDAuNTE3IDIuOTkyIDEuODIyIDIuNzQ0ek0xNC42MTUgOS4yMThjMC4xNTctMC43NjUgMC40OTUtMS4wMzUgMS4xMjUtMS4zMjcgMS43NzctMC4wMjIgMS43NTUgMy4wMzcgMC4yNyAzLjM1Mi0wLjkyMiAwLjIwMi0xLjU3NS0xLjEyNS0xLjM5NS0yLjAyNXpNMTAuNDc1IDEyLjIxYzIuMDkyLTAuMzYgMi4wNzAtNC4xODQtMC4yOTItNC4xMzktMC44MSAwLjMzNy0xLjIzNyAwLjYzLTEuNDYyIDEuNTMtMC4yOTIgMS4yMTUgMC41ODUgMi44MTIgMS43NTUgMi42MDl6TTkuMTQ4IDkuNzU4YzAuMTU3LTAuNjk3IDAuNDcyLTAuOTY3IDEuMDU3LTEuMjM3IDEuNzU1LTAuMDIzIDEuNzMyIDIuOTY5IDAuMjQ3IDMuMjM5LTAuODc3IDAuMTU3LTEuNDg1LTEuMTAyLTEuMzA1LTIuMDAyek0yMS4zODYgMTIuNTQ3YzIuMjk0LTAuMzE1IDIuMjcyLTQuMjk3LTAuMjI1LTQuMjUyLTAuNzY1IDAuMzM3LTEuMjE1IDAuNjMtMS40NCAxLjUwNy0wLjI5MiAxLjE5MiAwLjUxNyAyLjkwMiAxLjY2NSAyLjc0NHpNMjAuMTkzIDkuNzhjMC4xOC0wLjU2MiAwLjQ5NS0wLjc4NyAwLjk5LTEuMDM1IDEuOTM1LTAuMDQ1IDEuODQ1IDMuMjYyIDAuMjAyIDMuMzUyLTAuOTkgMC4wNDUtMS40ODUtMS4zMjctMS4xOTItMi4zMTd6TTIzLjA3MyAxMy42MjdjLTEuMTI1LTAuNDA1LTIuOTAyLTAuMzgyLTMuNzU3IDAuMjQ3LTAuNjk3LTAuOTQ1LTIuMTM3LTEuMzk1LTMuODAyLTEuMzcyLTAuNDk1IDAuMjAyLTEuMDEyIDAuMTU3LTEuNDQgMC4zMzctMC4zMTUgMC4xOC0wLjYwNyAwLjMzNy0wLjkyMiAwLjUxNy0wLjA5MCAwLjA5MC0wLjE4IDAuMTU3LTAuMjcgMC4yNDctMC4xNTcgMC4wNDUtMC40MjctMC4yMDItMC41NC0wLjI0Ny0wLjQ5NS0wLjIyNS0xLjA1Ny0wLjI3LTEuNjg3LTAuMzgyLTAuNTQtMC4wOTAtMS4xNDcgMC4wNjctMS41MyAwLjE4LTEuOTM1IDAuNTg1LTIuOTY5IDEuOTgtMy40ODcgMy45ODItMC4zNiAxLjM3Mi0wLjEzNSAzLjA1OSAwLjMxNSA0LjE2MiAwLjEzNSAwLjMxNSAwLjI3IDAuODMyIDAuNTYyIDAuOTkgMC4wNDUgMCAwLjExMiAwLjAyMyAwLjE1NyAwLjAyMyAwLjA0NS0wLjA0NSAwLjA5MC0wLjA5MCAwLjEzNS0wLjEzNSAwLjA0NS0wLjMzNy0wLjMzNy0wLjc0Mi0wLjQ3Mi0xLjA1Ny0wLjI3LTAuNjUyLTAuMzE1LTEuMzI3LTAuNDUtMi4xMzctMC4xMzUtMC44NTUgMC4xOC0xLjg2NyAwLjQwNS0yLjQ1MiAwLjY1Mi0xLjY2NSAyLjIwNS0zLjU1NCA0Ljc5MS0zLjA1OSAwLjU0IDAuMTEyIDAuOTQ1IDAuMzE1IDEuMzk1IDAuNDUgMCAwLjAyMyAwLjAyMyAwLjAyMyAwLjAyMyAwLjA0NS0xLjMwNSAwLjk2Ny0yLjA3MCA0LjExNy0xLjQxNyA2LjMyMSAwLjEzNSAwLjQyNyAwLjU2MiAxLjg5IDEuMDEyIDEuOCAwLjA2Ny0wLjA0NSAwLjA2Ny0wLjA0NSAwLjExMi0wLjExMiAwLjA5MC0wLjI0Ny0wLjIyNS0wLjU2Mi0wLjMxNS0wLjc0Mi0wLjI3LTAuNTQtMC40MjctMS4xNy0wLjU2Mi0xLjg0NS0wLjEzNS0wLjY1Mi0wLjA0NS0xLjUzIDAuMDY3LTIuMTE1IDAuNDcyLTIuMjI3IDEuNTMtMy44MDIgMy43NTctNC4yNzQgMy40ODctMC43MiA1Ljg3MSAyLjg1NyA1LjIxOSA2LjM0NC0wLjEzNSAwLjc4Ny0wLjMzNyAxLjQ2Mi0wLjY1MiAyLjA3MC0wLjExMiAwLjIyNS0wLjQ3MiAwLjU2Mi0wLjQyNyAwLjgzMiAwLjA0NSAwLjA5MCAwLjA0NSAwLjA5MCAwLjEzNSAwLjEzNSAwLjM4MiAwLjExMiAwLjg1NS0xLjE3IDAuOTktMS40ODUgMC45NjctMi40MjkgMC4zMzctNS4wMzktMC44MS02LjcwNCAwLjc2NS0wLjQ5NSAyLjMxNy0wLjQ3MiAzLjIzOS0wLjE1NyAyLjA5MiAwLjcyIDMuMDE0IDIuNDUyIDMuMTA0IDUuMTc0IDAuMDIzIDEuMTAyLTAuMjQ3IDIuMTM3LTAuNjMgMi44NzktMC4xNTcgMC4zMTUtMC40NzIgMC42MDctMC41NCAwLjk2NyAwLjA5MCAwLjEzNSAwLjA5MCAwLjE4IDAuMzE1IDAuMTggMC41MTctMC4zODIgMC43ODctMS4yODIgMC45OS0xLjk1NyAxLjA4MC0zLjQ2NC0wLjQyNy02Ljc0OS0zLjAxNC03LjY0OHoiIGZpbGw9IiNmZmZmZmYiPjwvcGF0aD4KPC9zdmc+Cg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T15:01:18.382+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T15:01:20.918+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T15:01:20.918+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>5632</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="ico-tree">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>bc7f0816-9b41-465b-bc9d-3b62dd26d918</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T15:01:31.591+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T15:01:31.591+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>ico-tree.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cf11a01c-0bc5-40d9-8871-aa4f874af29d</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>ico-tree.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGc+Cgk8bGluZSBzdHJva2Utd2lkdGg9IjEiIHgxPSIiIHkxPSIiIHgyPSIiIHkyPSIiIHN0cm9rZT0iIzQ0OUZEQiIgb3BhY2l0eT0iIj48L2xpbmU+CjwvZz4KCTxwYXRoIGQ9Ik0yOS45MzQgMTAuMzJjLTIuMTE1LTUuMTUxLTcuMTA4LTkuNDQ4LTE0LjQ4Ny05LjMzNi0wLjQ5NSAwLjA0NS0wLjk5IDAuMDkwLTEuNDg1IDAuMTM1LTEuMTQ3IDAuMjI1LTIuMjk1IDAuNDUtMy4yODQgMC44MzItNC4xODQgMS42Mi03LjE1NCA0LjcwMi04Ljc3MyA4Ljg4Ni0wLjMzNyAwLjktMC41NCAxLjkzNS0wLjc0MiAyLjk0Ny0wLjQwNSAyLjExNS0wLjA2NyA0LjY1NyAwLjQ1IDYuMzY2IDEuMzcyIDQuNTg5IDQuMjc0IDcuODI4IDguNDU4IDkuNjI4IDEuNTc1IDAuNjc1IDIuOTI0IDAuODc3IDQuOTI3IDEuMTkyIDAuNTQgMC4wMjMgMS4xMDIgMC4wMjMgMS42NDIgMC4wNDUgMS40ODUtMC4yMjUgMi43NjctMC4zMzcgNC4wMDQtMC43MiA0LjI3NC0xLjMyNyA3LjUzNi00LjQ1NCA5LjIwMS04LjM5MSAxLjQ2Mi0zLjQ4NyAxLjU1Mi04LjAwOCAwLjA5MC0xMS41ODV6TTI5LjYxOSAxOS43NDVjLTEuMjM3IDQuMTM5LTMuNTU0IDYuNzA0LTYuOTI5IDguNjgzLTEuMTI1IDAuNjUyLTMuNDY0IDEuNjItNS4xNzQgMS41OTctMC4wOTAtMS4wMTItMC4xNTctMi4wMDItMC4yNDctMy4wMTQgMC0xLjc1NS0wLjAyMy0zLjQ4Ny0wLjAyMy01LjI0MSAwLTEuNTMgMC4wNjctMi40NTIgMC44MS0zLjE5NCAwLjExMi0wLjExMiAwLjIwMi0wLjIyNSAwLjMxNS0wLjMzNyAwLjE1NyAwIDAuMjkyIDAuMDIzIDAuNDUgMC4wMjMgMC41ODUgMCAxLjMwNSAwLjA2NyAxLjgyMi0wLjA0NSAwLjAyMy0wLjAyMyAwLjAyMy0wLjA2NyAwLjA0NS0wLjA5MCAwLTAuMDY3IDAuMDIzLTAuMTM1IDAuMDIzLTAuMjAyLTAuMDIzLTAuMDIzLTAuMDY3LTAuMDQ1LTAuMDkwLTAuMDY3LTAuMTgtMC4xMzUtMS40NjItMC4wNDUtMS44LTAuMDQ1IDAuNzY1LTAuNzg3IDEuNTMtMS41NTIgMi4yOTQtMi4zNHYtMC4xOGMtMC4wNDUtMC4wNDUtMC4wOTAtMC4wNjctMC4xMzUtMC4xMTItMC4zODIgMC0xLjU1MiAxLjM3Mi0xLjg2NyAxLjY4Ny0wLjc4NyAwLjc4Ny0xLjgyMiAxLjQ4NS0yLjE4MiAyLjY5OS0wLjI0NyAwLjgzMi0wLjEzNSAyLjEzNy0wLjEzNSAzLjE3MiAwIDEuNDE3IDAuMDIzIDIuODU3IDAuMDIzIDQuMjc0IDAuMDkwIDEuMDEyIDAuMTU3IDIuMDQ3IDAuMjQ3IDMuMDU5LTAuNDUgMC4wMjMtMC44NzcgMC4wMjMtMS4zMjcgMC4wNDUgMC4xNTctMS42ODcgMC4xNTctMy42MjIgMC4xNTctNS41MTEgMC0wLjkgMC4wOTAtMi4wMDItMC4xNTctMi42NzctMC4xOC0wLjQ3Mi0xLjE3LTEuNDQtMS41OTctMS42NDItMC4xMzUtMC4xOC0wLjA0NS0yLjQ5Ny0wLjA2Ny0zLjAzNy0wLjA0NS0wLjA0NS0wLjA5MC0wLjA2Ny0wLjEzNS0wLjExMmgtMC4xOGMtMC4wMjMgMC4wMjMtMC4wNDUgMC4wNjctMC4wNjcgMC4wOTAtMC4xNTcgMC4yMjUtMC4wNDUgMi4xMTUtMC4wNDUgMi41NjRoLTAuMDIzYy0wLjktMC43ODctMS44MjItMS41OTctMi43MjItMi4zODRoLTAuMTEyYy0wLjA0NSAwLjA2Ny0wLjExMiAwLjExMi0wLjE1NyAwLjE4IDAuMDIzIDAuMjQ3IDEuMTcgMS4yNiAxLjM5NSAxLjM3MiAwLjA2NyAwLjA2NyAwLjExMiAwLjEzNSAwLjE4IDAuMjAyaC0xLjE0N2MtMC4wNDUgMC4wNDUtMC4wNjcgMC4wOTAtMC4xMTIgMC4xMzUgMCAwLjA2NyAwLjAyMyAwLjE1NyAwLjAyMyAwLjIyNSAwLjI5MiAwLjE1NyAxLjM3MiAwLjE1NyAxLjcxIDAuMDIzIDAuNjMgMC41NjIgMS4yMzcgMS4xNDcgMS44NjcgMS43MSAwLjI3IDAuMjI1IDAuNjA3IDAuNDI3IDAuNzQyIDAuNzY1IDAuMjcgMC42MyAwLjE1NyAxLjcxIDAuMTU3IDIuNTY0IDAgMS44OSAwIDMuODI0LTAuMTU3IDUuNTExLTEuODIyIDAtMy40NjQtMC41MTctNC43OTItMS4wODAtMy45MzctMS42ODctNi43MDQtNC43OTEtOC4wMzEtOS4wODgtMC40OTUtMS41OTctMC44MS00LjEzOS0wLjQwNS02LjE0MSAwLjIwMi0wLjk2NyAwLjM4Mi0xLjkxMiAwLjcyLTIuNzQ0IDEuNjQyLTQuMTYyIDQuNzI0LTcuMTc2IDkuMTU2LTguNTcxIDEuMDgwLTAuMzM3IDIuMjI3LTAuMzYgMy41MDktMC41ODUgMC41MTcgMC4wMjIgMS4wMzUgMC4wMjIgMS41NTIgMC4wNDUgMC41NCAwLjA2NyAxLjA4MCAwLjExMiAxLjYyIDAuMTggMS42ODcgMC4zODIgMy4xNDkgMC45IDQuNDMyIDEuNjY1IDMuMzI5IDEuOTggNS42NjkgNC44NTkgNi43NDkgOS4wODggMC4wOTAgMC42MyAwLjIwMiAxLjI2IDAuMjkyIDEuODkgMC4yOTIgMS43MS0wLjA5MCAzLjcxMi0wLjQ3MiA0Ljk5NHpNMjMuMjMgMTYuMTY5YzAuMDQ1LTAuNDk1IDAuMDQ1LTAuOTY3LTAuMDY3LTEuMzk1IDEuNDE3LTEuODkgMC45NjctNC4yNTItMC45OS01LjI0MS0wLjY3NS0wLjM2LTIuMTE1LTAuNTYyLTIuODM0LTAuMDQ1LTAuMTU3LTAuMDY3LTAuMzE1LTAuMTU3LTAuNDcyLTAuMjI1LTAuMTEyLTAuMzYtMC4yMDItMC43NDItMC4zMTUtMS4xMDItMC40NzItMS4xMDItMS41NzUtMS45MzUtMy4xNDktMS45MzUtMC4zNiAwLjEzNS0wLjc2NSAwLjA5MC0xLjA4MCAwLjIyNS0wLjk5IDAuMzgyLTIuMDI1IDEuMzcyLTIuMDcwIDIuNjU0LTEuMDM1IDAuMjkyLTEuNjg3IDAuNTQtMi4xNiAxLjM1LTAuNzg3IDEuMzUtMC4xMTIgMy4xMDQgMC45NDUgMy42NjctMC4zMzcgMC4xNTctMC42NzUgMC4yOTItMS4wMTIgMC40NS0wLjcyIDAuNDI3LTEuMzUgMS4xMjUtMS42ODcgMS45MzUtMS4xNyAyLjY5OSAwLjkgNS42OTEgMy40NDIgNS43MTQgMC4zMTUgMC44MzIgMC45MjIgMS40NCAxLjgyMiAxLjY2NSAwLjMxNSAwLjA5MCAwLjk5IDAuMTU3IDEuMTI1LTAuMTEyIDAtMC4wNDUgMC4wMjMtMC4xMTIgMC4wMjMtMC4xNTcgMC0wLjAyMy0wLjAyMy0wLjAyMy0wLjAyMy0wLjA0NS0wLjI5Mi0wLjIwMi0xLjAxMi0wLjA5MC0xLjM5NS0wLjI0Ny0wLjM4Mi0wLjE4LTAuNzY1LTAuNTE3LTAuOTY3LTAuODc3LTAuMDkwLTAuMTgtMC4xOC0wLjM4Mi0wLjI3LTAuNTYyLTAuMjI1LTAuMTgtMC43ODctMC4xNTctMS4wODAtMC4yNDctMC42NTItMC4yMjUtMS4yODItMC42My0xLjY4Ny0xLjEyNS0xLjg0NS0yLjM0LTAuNTE3LTUuMDYxIDEuNzc3LTUuOTE2IDAuMzE1IDAuMTM1IDAuMjcgMS4wMTIgMS4wNTcgMS4wMzUgMC4wNjctMC4wOTAgMC4xMTItMC4xMTIgMC4xMTItMC4yOTItMC40MDUtMC40MDUtMS4wMTItMC45LTAuNDUtMS42NjUgMC4xMzUtMC4xOCAwLjQ1LTAuMjI1IDAuNTYyLTAuNDI3IDAtMC4wNjcgMC4wMjMtMC4xMTIgMC4wMjMtMC4xOC0wLjA0NS0wLjA0NS0wLjA5MC0wLjA2Ny0wLjEzNS0wLjExMi0wLjM4Mi0wLjE1Ny0wLjkgMC41MTctMC45OSAwLjc4Ny0xLjMwNS0wLjU0LTEuMzcyLTIuODEyLTAuMzE1LTMuNjQ0IDAuMjctMC4yMjUgMC42My0wLjQwNSAxLjAxMi0wLjQ5NSAwLjE4LTAuMDIzIDAuMzM3LTAuMDY3IDAuNTE3LTAuMDkwIDAuMjI1LTAuMTU3IDAuMjAyLTAuNjA3IDAuMzE1LTAuOSAwLjE1Ny0wLjQ1IDAuNDUtMC45MjIgMC43ODctMS4xOTIgMS43MS0xLjM3MiA0LjUyMi0wLjU4NSA0Ljc0NiAxLjY2NS0wLjY5Ny0wLjE1Ny0xLjc1NSAwLjA0NS0xLjk4IDAuNTE3IDAgMC4wNDUtMC4wMjMgMC4xMTItMC4wMjMgMC4xNTcgMC4wNDUgMC4wNDUgMC4wOTAgMC4wNjcgMC4xMzUgMC4xMTIgMC4yNDcgMC4wOTAgMC41MTctMC4yMjUgMC43Mi0wLjI5MiAwLjMzNy0wLjEzNSAwLjk2Ny0wLjEzNSAxLjMwNSAwIDAuNDcyIDAuMTggMC44NzcgMC41NCAxLjEyNSAwLjk0NSAwLjEzNSAwLjIwMiAwLjEzNSAwLjYwNyAwLjM2IDAuNzIgMC4wNDUgMCAwLjExMiAwLjAyMyAwLjE1NyAwLjAyMyAwLjA2Ny0wLjA2NyAwLjExMi0wLjA2NyAwLjEzNS0wLjE4IDAuMTEyLTAuNDI3LTAuNDI3LTAuOTktMC42My0xLjI2IDAuNDA1LTAuMTEyIDAuOS0wLjI5MiAxLjQ2Mi0wLjE4IDEuMzI3IDAuMjQ3IDIuODEyIDEuNTMgMi40MjkgMy4zNzQtMC4xMTIgMC41NC0wLjM4MiAwLjg3Ny0wLjU2MiAxLjI4Mi0wLjAyMyAwLjAyMy0wLjA0NSAwLjAyMy0wLjA2NyAwLjA0NS0wLjMzNy0wLjM2LTAuNjA3LTAuNTg1LTEuMTQ3LTAuNzY1LTAuMTU3IDAuMDY3LTAuMjI1IDAuMDkwLTAuMjI1IDAuMzE1IDAuMjkyIDAuMjcgMC43NDIgMC4zMzcgMC45OSAwLjY3NSAwLjc4NyAxLjAzNSAwLjA0NSAxLjgyMi0wLjQ5NSAyLjQyOSAwIDAuMTU3IDAuMDQ1IDAuMjAyIDAuMTM1IDAuMjcgMC4zMzcgMC4wNDUgMC43Mi0wLjQwNSAwLjgzMi0wLjY3NSAxLjAxMi0wLjA5MCAxLjggMS45MzUgMS4xOTIgMi45OTItMC4yNyAwLjQ1LTAuNjk3IDAuODU1LTEuMjYgMS4wMzUtMC4yNDcgMC4wOTAtMC42OTcgMC4wMjMtMC45IDAuMTU3LTAuMTggMC4xMzUtMC40MjcgMC45LTAuNTg1IDEuMTI1LTAuNDI3IDAuNjA3LTEuMTAyIDAuOTktMS45OCAxLjE0Ny0wLjQyNyAwLjA2Ny0wLjgxLTAuMDY3LTEuMTctMC4wOTAtMC4wNDUgMC4wNjctMC4xMTIgMC4xMTItMC4xNTcgMC4xOCAwLjAyMyAwLjE1NyAwLjA0NSAwLjE1NyAwLjExMiAwLjI0NyAxLjY0MiAwLjM4MiAyLjk0Ny0wLjM2IDMuNjIyLTEuMzA1IDAuMTgtMC4yNyAwLjI0Ny0wLjU4NSAwLjQyNy0wLjg3NyAwLjExMi0wLjEzNSAwLjU4NS0wLjExMiAwLjc2NS0wLjE1NyAwLjM4Mi0wLjExMiAwLjcyLTAuMzM3IDAuOTktMC41NjIgMS40ODUtMS4xOTIgMC43ODctMy44MjQtMC44MzItNC4zMTl6TTE2LjIzNCAxMS43ODJjLTAuMDQ1LTAuMDQ1LTAuMTEyLTAuMDQ1LTAuMjI1LTAuMDQ1LTAuMDIzIDAuMDIzLTAuMDQ1IDAuMDY3LTAuMDY3IDAuMDkwLTAuMTU3IDAuMjI1LTAuMDQ1IDIuMTM3LTAuMDQ1IDIuNTg3LTAuNDUtMC4yNy0xLjI2LTEuMjYtMS43NTUtMS4yODItMC4wNDUgMC4wNDUtMC4wNjcgMC4wOTAtMC4xMTIgMC4xMzUtMC4xMTIgMC4zNiAxLjUzIDEuMzA1IDEuNzEgMS43MzIgMC4zMTUgMC43MiAwLjAyMyAxLjg0NSAwLjE4IDIuNzIyIDAuMDQ1IDAuMDIzIDAuMDY3IDAuMDQ1IDAuMTEyIDAuMDY3IDAuMDY3IDAgMC4xNTctMC4wMjMgMC4yMjUtMC4wMjMgMC4xOC0wLjMxNSAwLjA5MC0wLjk5IDAuMDkwLTEuNDR2LTMuMTI3YzAtMC4zODIgMC4xMTItMS4yMzctMC4xMTItMS40MTd6IiBmaWxsPSIjZmZmZmZmIj48L3BhdGg+Cjwvc3ZnPgo=</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T15:01:29.807+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T15:01:31.592+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T15:01:31.592+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>5435</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="clients">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3da04a9c-e5b4-4828-9f49-e09c868c1613</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2014-11-12T14:29:23.205+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2014-11-12T14:30:37.814+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="logo-mazda.svg">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>73d7cd3e-9d48-4b4f-8b13-5a740f4b091f</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T14:28:34.944+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T14:29:39.618+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>logo-mazda.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8f57d560-e822-4b60-9ab9-4f79a2c0dcc1</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>logo-mazda.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNDAiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxNDAgMzIiPgo8Zz4KCTxsaW5lIHN0cm9rZS13aWR0aD0iMSIgeDE9IiIgeTE9IiIgeDI9IiIgeTI9IiIgc3Ryb2tlPSIjNDQ5RkRCIiBvcGFjaXR5PSIiPjwvbGluZT4KPC9nPgoJPHBhdGggZD0iTTQwLjMzOSA2LjU5MmMtMy42MzQtMy44NzYtOS40NDgtNC42ODQtMTQuNDU1LTQuNjg0LTQuOTI2IDAtMTAuOTgzIDAuODA4LTE0LjUzNiA0LjkyNi0wLjA4MSAwLTAuMTYyIDAuMDgxLTAuMTYyIDAuMTYyLTEuNzc3IDIuMS0yLjgyNiA1LjAwNy0yLjgyNiA4Ljk2NCAwIDEyLjE5NCAxMC4wMTQgMTQuMTMyIDE3LjUyNCAxNC4xMzIgNy41OTEgMCAxNy42MDUtMS45MzggMTcuNjA1LTE0LjEzMiAwLTMuOTU3LTEuMDUwLTYuODY0LTIuODI2LTguOTY0LTAuMDgxLTAuMTYyLTAuMTYxLTAuMjQyLTAuMzIzLTAuNDA0ek0xNC40OTcgOC45MzRjMi4zNDItMy42MzQgNi44NjQtNC41MjIgMTEuNDY3LTQuNTIyczguOTY0IDAuODA4IDExLjM4NyA0LjM2MWMwIDAuMTYyIDAuMDgxIDAuMjQyIDAuMDgxIDAuMzIzLTQuMTE5IDIuMzQyLTguNzIyIDIuNDIzLTExLjU0OCA4LjM5OS0yLjk4OC01LjczNC03LjU5MS01LjgxNC0xMS42MjktOC4wNzYgMC4wODEtMC4xNjIgMC4xNjItMC4zMjMgMC4yNDItMC40ODV6TTI1Ljg4MyAyNy41MDhjLTYuNzgzIDAuMDgxLTEzLjE2My0xLjg1Ny0xMy4xNjMtMTEuNTQ4IDAtMC43MjcgMC0xLjQ1NCAwLjA4MS0yLjAxOSAwLTAuMTYyIDAuMDgxLTAuMjQyIDAuMDgxLTAuNDA0IDIuMjYxIDAuNzI3IDQuNjAzIDEuNTM0IDYuODY0IDIuMjYxIDIuNjY1IDEuMTMxIDQuNTIyIDIuNjY1IDYuMTM3IDYuMTM3IDEuNjE1LTMuNDczIDMuMzkyLTUuMjQ5IDYuMTM3LTYuMzggMi4zNDItMC44MDggNC42MDMtMS42MTUgNi45NDUtMi40MjMgMCAwLjA4MSAwIDAuMDgxIDAuMDgxIDAuMTYyIDAuMDgxIDAuODA4IDAuMTYxIDEuNjk2IDAuMTYxIDIuNjY1LTAuMDgxIDkuNjkxLTYuNTQxIDExLjYyOS0xMy4zMjUgMTEuNTQ4ek05Ny4xMSA5LjMzOGgtMTEuMDYzdjQuMzYxaDUuODE0bDUuMjQ5LTQuMzYxek0xMjcuNDc0IDkuMzM4aC05Ljc3MXYzLjk1N2MwIDAgNS40OTEgMCA3Ljc1MiAwczEuODU3IDEuNDU0IDEuODU3IDEuNDU0LTUuMTY4IDAtNi4yMTggMGMtMC44MDggMC0zLjE0OS0wLjA4MS00LjM2MSAxLjc3N3YtMC43MjdjMC02LjYyMi01LjAwNy02LjQ2LTUuMDA3LTYuNDZoLTEzLjA4MmwtMTMuNDA1IDEwLjQ5OGMwIDAgMC0yLjI2MSAwLTYuNDZzLTQuMzYxLTQuMDM4LTQuMzYxLTQuMDM4aC05LjY5MXYzLjk1N2MwIDAgNS4zMyAwIDcuNTEgMCAyLjI2MSAwIDEuOTM4IDEuNDU0IDEuOTM4IDEuNDU0cy01LjAwNyAwLTUuOTc2IDBjLTAuODA4IDAtMy4xNDktMC4wODEtNC4yOCAxLjY5NnYtMS42MTVjMC01LjgxNC01LjI0OS01LjQxMS01LjI0OS01LjQxMWgtMTYuMzkzdjE0LjUzNmg0LjkyNnYtMTAuMjU2YzAgMCAxLjYxNSAwIDMuNDczIDB2MTAuMTc1aDQuNjg0di0xMC4xNzVoMS42MTVjMi4zNDIgMCAyLjAxOSAxLjg1NyAyLjAxOSAxLjg1N3Y4LjMxOGg0LjkyNmMwIDAgMC0wLjY0NiAwLTEuOTM4IDEuMjExIDEuOTM4IDMuNTUzIDEuOTM4IDMuNTUzIDEuOTM4aDEzLjU2N2wxMy43MjgtMTAuNjZ2MTAuNjZjMCAwIDcuMzQ5IDAgMTAuMjU2IDAgMi4wMTkgMCAzLjg3Ni0xLjA1MCA0Ljc2NS0zLjcxNSAwLjU2NSAzLjcxNSA0LjI4IDMuNzE1IDQuMjggMy43MTVoMTEuMzg3YzAgMCAwLTYuMjE4IDAtMTAuNDk4LTAuMDgxLTQuMTk5LTQuNDQyLTQuMDM4LTQuNDQyLTQuMDM4ek04MC41NTUgMTkuOTE3aC01LjAwN2MwIDAtMS4wNTAgMC0xLjA1MC0xLjA1MCAwLTAuODg4IDAuODA4LTAuOTY5IDEuMTMxLTAuOTY5aDQuOTI2djIuMDE5ek0xMTAuMDMxIDE5LjU5NGgtNC4xMTl2LTYuMTM3aDQuMTk5YzAgMCAyLjEgMC4xNjIgMi4xIDIuODI2IDAgMi43NDYtMC45NjkgMy4zMTEtMi4xOCAzLjMxMXpNMTI3LjIzMSAxOS45MTdoLTUuMTY4YzAgMC0xLjA1MCAwLjA4MS0xLjA1MC0wLjk2OSAwLTAuODg4IDAuODg4LTAuOTY5IDEuMjExLTAuOTY5aDUuMDg4djEuOTM4ek04OS4wMzQgMjMuODc0aDEwLjgyMXYtNC4yOGgtNS41NzJsLTUuMjQ5IDQuMjh6IiBmaWxsPSIjODE4Mzg3Ij48L3BhdGg+Cjwvc3ZnPgo=</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:28:34.932+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T14:28:34.945+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:29:39.618+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>2417</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="logo-microsoft">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d94e3afb-f03a-43e5-9fb4-06586dd495f3</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T14:29:56.698+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T14:29:56.698+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>logo-microsoft.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b76402dc-9397-4760-894e-1712b6438ddb</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>logo-microsoft.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNDYiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxNDYgMzIiPgo8Zz4KCTxsaW5lIHN0cm9rZS13aWR0aD0iMSIgeDE9IiIgeTE9IiIgeDI9IiIgeTI9IiIgc3Ryb2tlPSIjNDQ5RkRCIiBvcGFjaXR5PSIiPjwvbGluZT4KPC9nPgoJPHBhdGggZD0iTTY0LjU2OSA3LjA0OGMtMC44MjkgMC4wODMtMS40OTIgMC44MjktMS40OTIgMS42NTggMCAwLjc0NiAwLjU4IDEuNDkyIDEuMzI2IDEuNTc1IDAuNzQ2IDAuMTY2IDEuNTc1LTAuMTY2IDEuOTA3LTAuODI5IDAuMzMyLTAuNTggMC4yNDktMS40MDktMC4xNjYtMS45MDctMC4zMzItMC40MTQtMC45OTUtMC42NjMtMS41NzUtMC40OTd6TTYzLjQwOCAyNC4yODloMi45MDFjMC00LjA2MiAwLTguMDQxIDAtMTIuMTAyLTAuOTk1IDAtMS45MDcgMC0yLjkwMSAwIDAgMy45NzkgMCA4LjA0MSAwIDEyLjEwMnpNMjEuOTYyIDEuOTA4aC0xMy4yNjN2MTMuMjYzaDEzLjI2M2MwLTQuNDc2IDAtOC43ODcgMC0xMy4yNjN6TTIzLjUzNyAxLjkwOGMwIDQuNDc2IDAgOC44NyAwIDEzLjI2MyA0LjQ3NiAwIDguODcgMCAxMy4yNjMgMCAwLTQuNDc2IDAtOC44NyAwLTEzLjI2M2gtMTMuMjYzek04LjY5OSAxNi43NDZ2MTMuMjYzaDEzLjI2M2MwLTQuNDc2IDAtOC44NyAwLTEzLjI2My00LjM5MyAwLTguNzg3IDAtMTMuMjYzIDB6TTU2Ljk0MiA3LjcxMWMtMS42NTggNC4xNDUtMy4zOTkgOC4wNDEtNS4wNTYgMTIuMTg1LTAuMzMyLTAuODI5LTAuNjYzLTEuNjU4LTAuOTk1LTIuNDg3LTEuMzI2LTMuMzE2LTIuNjUzLTYuMzgzLTMuOTc5LTkuNjk4aC00LjIyOGMwIDUuNjM3IDAgMTAuOTQyIDAgMTYuNTc5IDAuOTEyIDAgMS44MjQgMCAyLjczNSAwIDAtMi40ODcgMC01LjA1NiAwLTcuNTQzIDAtMS44MjQgMC0zLjMxNiAwLTUuMTM5IDAuMDgzIDAuMDgzIDAuMDgzIDAuMTY2IDAuMTY2IDAuMjQ5IDEuNzQxIDQuMjI4IDMuMzk5IDguMjA2IDUuMTM5IDEyLjQzNCAwLjY2MyAwIDEuNDA5IDAgMi4wNzIgMCAxLjY1OC00LjIyOCAzLjM5OS04LjIwNiA1LjA1Ni0xMi40MzQgMC4wODMtMC4wODMgMC4wODMtMC4xNjYgMC4xNjYtMC4yNDkgMCAwLjE2NiAwIDAuNDE0IDAgMC41OCAwIDQuMTQ1IDAgOC4wNDEgMCAxMi4xODUgMC45OTUgMCAxLjkwNyAwIDIuOTAxIDAgMC01LjYzNyAwLTEwLjk0MiAwLTE2LjU3OS0xLjMyNi0wLjA4My0yLjY1My0wLjE2Ni0zLjk3OS0wLjA4M3pNNzQuNTE2IDE0LjI1OWMxLjE2LTAuMTY2IDIuNDA0IDAuMzMyIDMuMzE2IDAuOTk1IDAtMC45MTIgMC0xLjgyNCAwLTIuNzM1LTAuMjQ5LTAuMTY2LTAuNDk3LTAuMjQ5LTAuODI5LTAuMzMyLTEuNDA5LTAuNDE0LTIuOTAxLTAuNDE0LTQuMzEgMC0xLjI0MyAwLjMzMi0yLjQ4NyAxLjE2MS0zLjIzMyAyLjIzOC0wLjkxMiAxLjMyNi0xLjI0MyAyLjkwMS0xLjE2IDQuNDc2IDAuMDgzIDEuNDkyIDAuNjYzIDIuOTg0IDEuNzQxIDQuMDYyIDAuOTk1IDAuOTk1IDIuNDA0IDEuNDkyIDMuODEzIDEuNTc1IDEuMzI2IDAuMDgzIDIuODE4LTAuMDgzIDMuOTc5LTAuODI5IDAtMC45MTIgMC0xLjc0MSAwLTIuNjUzLTAuNzQ2IDAuNTgtMS42NTggMC45OTUtMi41NyAxLjA3OC0wLjk5NSAwLjA4My0xLjk4OS0wLjE2Ni0yLjczNS0wLjgyOS0wLjY2My0wLjU4LTEuMDc4LTEuNDkyLTEuMTYtMi40MDQtMC4xNjYtMS4xNiAwLjA4My0yLjQwNCAwLjc0Ni0zLjMxNiAwLjU4LTAuNzQ2IDEuNDkyLTEuMjQzIDIuNDA0LTEuMzI2ek0xMzcuMTgzIDE0LjM0MnYtMi40ODdjLTAuOTk1IDAtMS45ODkgMC0yLjkwMSAwIDAtMS4yNDMgMC0yLjA3MiAwLTMuMzE2LTAuOTk1IDAuMjQ5LTEuOTA3IDAuNTgtMi45MDEgMC44MjkgMCAwLjkxMiAwIDEuNDkyIDAgMi40MDQtMS40MDkgMC0yLjczNSAwLTQuMTQ1IDAgMC0wLjc0Ni0wLjA4My0xLjE2MSAwLjA4My0xLjgyNCAwLjA4My0wLjU4IDAuNDE0LTEuMTYxIDAuOTk1LTEuMzI2IDAuNjYzLTAuMjQ5IDEuNDkyLTAuMDgzIDIuMTU1IDAuMTY2IDAtMC44MjkgMC0xLjY1OCAwLTIuNDg3LTEuNDA5LTAuNDE0LTIuOTg0LTAuMzMyLTQuMjI4IDAuNDk3LTAuODI5IDAuNDk3LTEuNDA5IDEuMzI2LTEuNjU4IDIuMjM4LTAuMzMyIDAuOTk1LTAuMTY2IDEuNzQxLTAuMTY2IDIuODE4LTAuNjYzIDAtMS4zMjYgMC0yLjA3MiAwIDAgMC43NDYgMCAxLjY1OCAwIDIuNDg3IDAuNjYzIDAgMS40MDkgMCAyLjA3MiAwIDAgMy4yMzMgMCA2LjcxNCAwIDkuOTQ3aDIuOTAxYzAtMy4yMzMgMC02LjcxNCAwLTkuOTQ3IDEuNDA5IDAgMi43MzUgMCA0LjE0NSAwIDAgMi4wNzIgMCA0LjA2MiAwIDYuMTM0IDAgMC45OTUgMC4xNjYgMS45ODkgMC44MjkgMi43MzUgMC41OCAwLjY2MyAxLjQwOSAwLjk5NSAyLjMyMSAxLjA3OHMxLjkwNy0wLjA4MyAyLjczNS0wLjQxNHYtMi40MDRjLTAuNjYzIDAuNDE0LTEuNTc1IDAuNTgtMi4yMzggMC4xNjYtMC40MTQtMC4yNDktMC42NjMtMC43NDYtMC42NjMtMS4xNi0wLjA4My0wLjc0NiAwLTEuMjQzLTAuMDgzLTEuOTg5IDAtMS4zMjYgMC0yLjkwMSAwLTQuMjI4IDAuODI5IDAuMDgzIDEuODI0IDAgMi44MTggMC4wODN6TTEwNi43NjEgMTcuNjU4Yy0wLjgyOS0wLjQ5Ny0xLjgyNC0wLjc0Ni0yLjY1My0xLjI0My0wLjQ5Ny0wLjMzMi0wLjU4LTAuOTk1LTAuNDE0LTEuNDkyIDAuMjQ5LTAuNDk3IDAuODI5LTAuNzQ2IDEuNDA5LTAuNzQ2IDEuMDc4IDAgMi4xNTUgMC4yNDkgMy4wNjcgMC45MTIgMC0wLjkxMiAwLTEuNzQxIDAtMi42NTMtMS4yNDMtMC40OTctMi42NTMtMC42NjMtMy45NzktMC40MTQtMS4xNiAwLjE2Ni0yLjIzOCAwLjgyOS0yLjkwMSAxLjc0MS0wLjU4IDAuODI5LTAuNjYzIDEuOTA3LTAuNDE0IDIuOTAxIDAuMTY2IDAuNjYzIDAuNTggMS4yNDMgMS4wNzggMS42NTggMC43NDYgMC41OCAxLjY1OCAwLjkxMiAyLjQ4NyAxLjI0MyAwLjQxNCAwLjI0OSAwLjkxMiAwLjQxNCAxLjI0MyAwLjgyOSAwLjMzMiAwLjQ5NyAwLjI0OSAxLjMyNi0wLjMzMiAxLjY1OHMtMS4zMjYgMC4zMzItMS45ODkgMC4xNjZjLTAuOTEyLTAuMTY2LTEuODI0LTAuNTgtMi42NTMtMS4xNiAwIDAuOTEyIDAgMS45MDcgMCAyLjgxOCAwLjkxMiAwLjQxNCAxLjkwNyAwLjU4IDIuOTg0IDAuNjYzIDEuNDA5IDAuMDgzIDIuOTg0LTAuMjQ5IDQuMDYyLTEuMjQzIDEuMTYtMC45OTUgMS40MDktMi43MzUgMC43NDYtNC4wNjItMC40MTQtMC42NjMtMS4wNzgtMS4xNi0xLjc0MS0xLjU3NXpNMTE5LjM2MSAxMi41MThjLTEuMzI2LTAuNjYzLTIuODE4LTAuNzQ2LTQuMzEtMC41OC0xLjE2IDAuMTY2LTIuMzIxIDAuNTgtMy4yMzMgMS40MDktMS4wNzggMC45MTItMS43NDEgMi4zMjEtMS45MDcgMy43M3MtMC4wODMgMi45MDEgMC40MTQgNC4yMjhjMC41OCAxLjMyNiAxLjY1OCAyLjMyMSAyLjk4NCAyLjgxOHMyLjczNSAwLjU4IDQuMDYyIDAuMzMyYzEuNDA5LTAuMjQ5IDIuNzM1LTAuOTk1IDMuNTY0LTIuMDcyIDAuOTEyLTEuMTYgMS4zMjYtMi42NTMgMS4zMjYtNC4xNDUgMC0wLjk5NS0wLjA4My0xLjk4OS0wLjQxNC0yLjkwMS0wLjQxNC0xLjE2MS0xLjMyNi0yLjIzOC0yLjQ4Ny0yLjgxOHpNMTE5LjE5NSAxOS40ODJjLTAuMDgzIDAuNjYzLTAuMzMyIDEuMjQzLTAuNzQ2IDEuNzQxcy0xLjA3OCAwLjgyOS0xLjY1OCAwLjkxMmMtMC42NjMgMC4wODMtMS40MDkgMC4wODMtMi4wNzItMC4yNDlzLTEuMjQzLTAuOTEyLTEuNDkyLTEuNTc1Yy0wLjMzMi0wLjgyOS0wLjQxNC0xLjc0MS0wLjMzMi0yLjY1MyAwLjA4My0wLjgyOSAwLjMzMi0xLjc0MSAwLjkxMi0yLjQwNCAwLjQ5Ny0wLjY2MyAxLjMyNi0wLjk5NSAyLjE1NS0wLjk5NSAwLjgyOS0wLjA4MyAxLjY1OCAwLjE2NiAyLjMyMSAwLjY2MyAwLjU4IDAuNDk3IDAuOTEyIDEuMjQzIDEuMDc4IDEuOTA3IDAgMC45MTIgMCAxLjc0MS0wLjE2NiAyLjY1M3pNODQuMjk3IDEyLjM1M2MtMC43NDYgMC40MTQtMS4xNiAxLjE2MS0xLjQ5MiAxLjkwNyAwLTAuNjYzIDAtMS40MDkgMC0yLjA3Mi0wLjk5NSAwLTEuOTA3IDAtMi45MDEgMCAwIDQuMDYyIDAgOC4wNDEgMCAxMi4xMDJoMi44MThjMC0xLjkwNyAwLTMuODk2IDAtNS44MDMgMC0wLjgyOSAwLjA4My0xLjc0MSAwLjQxNC0yLjQ4N3MwLjk5NS0xLjMyNiAxLjgyNC0xLjQwOWMwLjY2My0wLjA4MyAxLjQwOSAwLjA4MyAxLjk4OSAwLjQ5NyAwLTAuOTk1IDAtMS45MDcgMC0yLjkwMS0wLjgyOS0wLjMzMi0xLjgyNC0wLjMzMi0yLjY1MyAwLjE2NnpNOTYuNzMxIDEyLjQzNmMtMS4zMjYtMC41OC0yLjczNS0wLjY2My00LjE0NS0wLjQ5Ny0xLjQ5MiAwLjE2Ni0yLjkwMSAwLjkxMi0zLjgxMyAyLjA3Mi0wLjgyOSAxLjA3OC0xLjI0MyAyLjQwNC0xLjMyNiAzLjczLTAuMDgzIDEuNTc1IDAuMTY2IDMuMjMzIDEuMDc4IDQuNTU5IDAuNzQ2IDEuMTYgMS45ODkgMS45MDcgMy4zMTYgMi4xNTUgMS4wNzggMC4yNDkgMi4zMjEgMC4yNDkgMy4zOTkgMCAxLjMyNi0wLjI0OSAyLjQ4Ny0wLjk5NSAzLjMxNi0yLjA3MiAwLjgyOS0wLjk5NSAxLjE2LTIuMjM4IDEuMjQzLTMuNTY0czAtMi42NTMtMC41OC0zLjgxM2MtMC40MTQtMS4xNjEtMS4zMjYtMi4wNzItMi40ODctMi41N3pNOTYuNDgyIDIwLjU1OWMtMC4yNDkgMC42NjMtMC43NDYgMS4xNi0xLjQwOSAxLjQwOS0wLjc0NiAwLjI0OS0xLjU3NSAwLjMzMi0yLjQwNCAwLjA4My0wLjc0Ni0wLjE2Ni0xLjQ5Mi0wLjc0Ni0xLjgyNC0xLjQ5Mi0wLjQ5Ny0wLjkxMi0wLjQ5Ny0xLjk4OS0wLjQxNC0zLjA2NyAwLjA4My0wLjkxMiAwLjQxNC0xLjkwNyAxLjE2LTIuNDg3IDAuNDk3LTAuNDk3IDEuMjQzLTAuNzQ2IDEuOTA3LTAuNzQ2IDAuOTEyLTAuMDgzIDEuODI0IDAuMTY2IDIuNDA0IDAuODI5IDAuNjYzIDAuNjYzIDAuOTEyIDEuNTc1IDAuOTk1IDIuNDg3IDAuMDgzIDAuOTk1IDAgMi4wNzItMC40MTQgMi45ODR6TTIzLjUzNyAxNi43NDZjMCA0LjQ3NiAwIDguODcgMCAxMy4yNjNoMTMuMjYzdi0xMy4yNjNjLTQuMzkzIDAtOC43ODcgMC0xMy4yNjMgMHoiIGZpbGw9IiM4MTgzODciPjwvcGF0aD4KPC9zdmc+Cg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:29:51.181+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T14:29:56.698+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:29:56.698+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>5251</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="logo-mtv">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>20b68b9c-1cfb-4e8e-8bf5-1e466baa6ea9</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T14:30:11.207+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T14:30:11.207+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>logo-mtv.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0d48c014-ecc1-4d47-9849-6f3683d85adb</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>logo-mtv.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDUyIDMyIj4KPGc+Cgk8bGluZSBzdHJva2Utd2lkdGg9IjEiIHgxPSIiIHkxPSIiIHgyPSIiIHkyPSIiIHN0cm9rZT0iIzQ0OUZEQiIgb3BhY2l0eT0iIj48L2xpbmU+CjwvZz4KCTxwYXRoIGQ9Ik0yMC4xODggMzAuMDkyaDIuMTAxdi0zLjc2N2wtMi4xMDEtMS44MTF2NS41Nzl6TTI1LjYyMiAyNi40NjloMS44MTFsMC41MDctMC40MzV2LTEuNTIxbC0yLjMxOSAxLjk1NnpNMjUuNDc3IDQuNDQ0bC0xLjQ0OSAxLjUyMS0zLjg0LTQuMDU3IDQuODU0IDIuMTc0IDAuNDM1IDAuMzYyek00Ni4xOTggMTIuMzQxdi0xMC40MzNsMi41MzYgMS41MjF2NS43MjRjLTAuNjUyIDAuNzI1LTEuOTU2IDIuMzE5LTIuNTM2IDMuMTg4ek00OC43MzQgMTQuNDQydjE1LjY1aC0yLjYwOHYtMTEuNDQ3YzAuNTgtMS4xNTkgMS44ODQtMy4yNiAyLjYwOC00LjIwMnpNMzUuMzMxIDMwLjA5MmMtMC4wNzItMC43MjQtMC4yMTctMS43MzktMC4yMTctMi42MDggMC0wLjU4IDAuMDcyLTIuNzUzIDAuMDcyLTQuNTY0IDAtMS41MjEtMC4zNjItNC4yMDItMC4zNjItNS42NTEgMC0wLjg2OSAwLjA3Mi0yLjEwMSAwLTIuNDYzIDAuNzI0LTAuNDM1IDEuMzA0LTAuNzI1IDMuMjYtMS44ODQgMC42NTItMC4zNjIgMS44MTEtMS4wMTQgMS44MTEtMS44MTEgMC0wLjM2Mi0wLjA3Mi0wLjU4LTAuNTgtMC45NDItMC4zNjItMC4yOS0wLjcyNC0wLjM2Mi0xLjA4Ny0wLjM2Mi0xLjAxNCAwLTEuNDQ5IDEuMDE0LTIuMjQ2IDEuNTIxLTEuMjMyIDAuNzk3LTEuOTU2IDEuMTU5LTIuMTc0IDEuMzA0LTAuMDcyLTAuMDcyLTAuNTA3LTAuMjktMS4yMzItMC4yOXMtMS41OTQgMC4yOS0xLjU5NCAxLjIzMmMwIDAuNDM1IDAuMTQ1IDAuODY5LTAuNDM1IDEuMjMyLTAuMjkgMC4yMTctMS44ODQgMS4wODctMy41NSAyLjEwMS0xLjM3NyAwLjg2OS0yLjAyOSAwLjc5Ny0yLjY4MSAxLjE1OS0wLjU4IDAuMzYyLTAuNzI0IDAuNzI0LTAuNzI0IDEuMDg3IDAgMC4yOSAwLjIxNyAwLjcyNCAwLjI5IDAuNzk3IDAuMzYyIDAuNTA3IDAuNzI0IDAuNzI0IDEuMzA0IDAuNzI0IDEuMDE0IDAgMS44ODQtMC44NjkgMy40MDUtMS45NTYgMC45NDItMC43MjQgMS44ODQtMS4zNzcgMi4zOTEtMS4zNzcgMC40MzUgMCAwLjc5NyAwLjM2MiAwLjc5NyAxLjgxMSAwIDQuODU0LTAuMjkgNS41NzktMC4yOSA4Ljk4NCAwIDAuNTggMCAxLjczOSAwLjA3MiAyLjE3NGgtMi41MzZ2LTguMTE1bC00LjkyNyA0LjEzLTQuOTk5LTQuMTN2Ny44OTdoLTE2LjAxMnYtMjguMTg0aDE1LjU3N2w1LjM2MSA1LjY1MSA1LjM2MS01LjY1MWgxNS42NXYxMi4wOTljLTAuNTA3IDAuNzk3LTIuMDI5IDMuMzMzLTMuMDQzIDYuMDEzLTAuMzYyIDAuODY5LTAuNTA3IDEuNTIxLTAuOTQyIDEuNTIxLTAuNTA3IDAtMC41MDctMC41MDctMC41OC0wLjg2OS0wLjA3Mi0wLjk0Mi0wLjI5LTIuNjgxLTAuNDM1LTMuMzMzLTAuMjE3LTEuMjMyLTAuNDM1LTIuNTM2LTEuODExLTIuNTM2LTEuMDE0IDAtMi4xMDEgMC41OC0yLjEwMSAyLjEwMSAwIDAuODY5IDAuNDM1IDIuMzkxIDEuMTU5IDQuMzQ3IDAuMjkgMC43OTcgMS44ODQgNC45MjcgMi4xMDEgNS41MDYgMC40MzUgMS4wODcgMS4wMTQgMS4zNzcgMS44ODQgMS4zNzcgMS4xNTkgMCAxLjUyMS0wLjQzNSAyLjAyOS0yLjAyOSAwLjQzNS0xLjM3NyAxLjA4Ny0zLjYyMyAxLjY2Ni00Ljk5OSAwIDAgMCAwIDAgMHY5LjEyOWgtOS42MzZ6IiBmaWxsPSIjODE4Mzg3Ij48L3BhdGg+Cjwvc3ZnPgo=</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:30:09.205+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T14:30:11.208+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:30:11.208+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>2027</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="logo-oracle">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b9523378-bbe0-44d7-beaa-08cd3ddf23db</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T14:30:23.739+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T14:30:23.739+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>logo-oracle.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d122aece-5f55-4fb1-b502-25e81bbbf648</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>logo-oracle.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNDYiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAyNDYgMzIiPgo8Zz4KCTxsaW5lIHN0cm9rZS13aWR0aD0iMSIgeDE9IiIgeTE9IiIgeDI9IiIgeTI9IiIgc3Ryb2tlPSIjNDQ5RkRCIiBvcGFjaXR5PSIiPjwvbGluZT4KPC9nPgoJPHBhdGggZD0iTTEwOC42NDMgMjAuMTloMTMuNDg3bC03LjA3MS0xMS42NTQtMTIuOTYzIDIwLjY4OGgtNi4wMjNsMTUuODQ0LTI0Ljg3OGMwLjY1NS0xLjA0OCAxLjgzMy0xLjU3MSAzLjE0My0xLjU3MXMyLjM1NyAwLjUyNCAzLjE0MyAxLjU3MWwxNS44NDQgMjQuODc4aC02LjAyM2wtMi43NS00LjMyMWgtMTMuNjE4bC0zLjAxMi00LjcxNHpNMTcwLjQ0NiAyNC42NDJ2LTIxLjYwNWgtNS4xMDd2MjMuN2MwIDAuNjU1IDAuMzkzIDEuMTc4IDAuNzg2IDEuNzAyIDAuNTI0IDAuNTI0IDEuMzA5IDAuNjU1IDEuODMzIDAuNjU1aDIzLjA0NWwzLjAxMi00LjU4M2gtMjMuNTY5ek04Ny4wMzggMjAuNzE0YzQuODQ1IDAgOC45MDQtMy45MjggOC45MDQtOC43NzMgMC00Ljk3Ni00LjA1OS04LjkwNC04LjkwNC04LjkwNGgtMjEuOTk4djI2LjE4OGg0Ljk3NnYtMjEuNjA1aDE2LjYyOWMyLjM1NyAwIDQuMTkgMS45NjQgNC4xOSA0LjMyMXMtMS44MzMgNC4xOS00LjE5IDQuMTloLTE0LjE0MWwxNS4wNTggMTMuMDk0aDcuMjAybC0xMC4wODItOC41MTFoMi4zNTd6TTM0LjQwMSAyOS4yMjVjLTcuMjAyIDAtMTMuMDk0LTUuODkyLTEzLjA5NC0xMy4wOTQgMC03LjMzMyA1Ljg5Mi0xMy4wOTQgMTMuMDk0LTEzLjA5NGgxNC41MzRjNy4yMDIgMCAxMy4wOTQgNS44OTIgMTMuMDk0IDEzLjA5NCAwIDcuMzMzLTUuODkyIDEzLjA5NC0xMy4wOTQgMTMuMDk0aC0xNC41MzR6TTQ4LjY3MyAyNC42NDJjNC41ODMgMCA4LjUxMS0zLjc5NyA4LjUxMS04LjUxMXMtMy45MjgtOC41MTEtOC41MTEtOC41MTFoLTE0LjAxMGMtNC41ODMgMC04LjUxMSAzLjc5Ny04LjUxMSA4LjUxMXMzLjkyOCA4LjUxMSA4LjUxMSA4LjUxMWgxNC4wMTB6TTE0NC41MjEgMjkuMjI1Yy03LjIwMiAwLTEzLjA5NC01Ljg5Mi0xMy4wOTQtMTMuMDk0IDAtNy4zMzMgNS44OTItMTMuMDk0IDEzLjA5NC0xMy4wOTRoMTguMjAxbC0zLjAxMiA0LjU4M2gtMTQuNzk2Yy00LjcxNCAwLTguNTExIDMuNzk3LTguNTExIDguNTExczMuNzk3IDguNTExIDguNTExIDguNTExaDE4LjIwMWwtMy4wMTIgNC41ODNoLTE1LjU4MnpNMjA2LjE5MyAyNC42NDJjLTMuOTI4IDAtNy4wNzEtMi42MTktOC4xMTgtNi4xNTRoMjEuNDc0bDMuMDEyLTQuNTgzaC0yNC40ODZjMS4wNDgtMy41MzUgNC4xOS02LjI4NSA4LjExOC02LjI4NWgxNC43OTZsMy4wMTItNC41ODNoLTE4LjJjLTcuMjAyIDAtMTIuOTYzIDUuODkyLTEyLjk2MyAxMy4wOTQgMCA3LjMzMyA1Ljc2MSAxMy4wOTQgMTIuOTYzIDEzLjA5NGgxNS41ODJsMi44ODEtNC41ODNoLTE4LjA3MHoiIGZpbGw9IiM4MTgzODciPjwvcGF0aD4KPC9zdmc+Cg==</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:30:21.363+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T14:30:23.740+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:30:23.740+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>1729</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="logo-smashing">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:asset</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8f1a1423-8532-4f8c-bfca-9e64b66456b9</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2014-11-12T14:30:37.815+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2014-11-12T14:30:37.815+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="name" sv:type="String">
+        <sv:value>logo-smashing.svg</sv:value>
+      </sv:property>
+      <sv:node sv:name="jcr:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>mgnl:resource</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>67e6071b-6459-4d6d-a5b0-ab16dc14d171</sv:value>
+        </sv:property>
+        <sv:property sv:name="extension" sv:type="String">
+          <sv:value>svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="fileName" sv:type="String">
+          <sv:value>logo-smashing.svg</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:data" sv:type="Binary">
+          <sv:value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxMDciIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxMDcgMzIiPgo8Zz4KCTxsaW5lIHN0cm9rZS13aWR0aD0iMSIgeDE9IiIgeTE9IiIgeDI9IiIgeTI9IiIgc3Ryb2tlPSIjNDQ5RkRCIiBvcGFjaXR5PSIiPjwvbGluZT4KPC9nPgoJPHBhdGggZD0iTTU2LjEzIDIyLjQ1MWgxLjc3MXYxLjEzOGMtMC4xOSAwLjEyNi0wLjQ0MyAwLjMxNi0wLjc1OSAwLjQ0M3MtMC42OTYgMC4xOS0xLjAxMiAwLjE5Yy0wLjM4IDAtMC43NTktMC4wNjMtMS4xMzgtMC4yNTNzLTAuNjMyLTAuNDQzLTAuODIyLTAuODIyLTAuMjUzLTAuODIyLTAuMjUzLTEuMzkxYzAtMC40NDMgMC4wNjMtMC44MjIgMC4yNTMtMS4yMDIgMC4wNjMtMC4xOSAwLjE5LTAuNDQzIDAuMzgtMC42MzJzMC4zOC0wLjMxNiAwLjYzMi0wLjQ0M2MwLjI1My0wLjEyNiAwLjU2OS0wLjE5IDAuOTQ5LTAuMTkgMC4zMTYgMCAwLjU2OSAwLjA2MyAwLjgyMiAwLjE5czAuNDQzIDAuMjUzIDAuNTY5IDAuNDQzYzAuMTI2IDAuMTkgMC4yNTMgMC40NDMgMC4zMTYgMC43NTlsMC43NTktMC4yNTNjLTAuMTI2LTAuNDQzLTAuMjUzLTAuNzU5LTAuNDQzLTEuMDEycy0wLjUwNi0wLjQ0My0wLjgyMi0wLjU2OWMtMC4zOC0wLjEyNi0wLjc1OS0wLjE5LTEuMjAyLTAuMTktMC41NjkgMC0xLjEzOCAwLjEyNi0xLjU4MSAwLjM4cy0wLjgyMiAwLjYzMi0xLjA3NSAxLjEzOGMtMC4yNTMgMC41MDYtMC4zOCAxLjA3NS0wLjM4IDEuNjQ0IDAgMC42MzIgMC4xMjYgMS4xMzggMC4zOCAxLjY0NHMwLjYzMiAwLjg4NSAxLjA3NSAxLjEzOGMwLjUwNiAwLjI1MyAxLjAxMiAwLjM4IDEuNTgxIDAuMzggMC40NDMgMCAwLjg4NS0wLjA2MyAxLjI2NS0wLjI1MyAwLjQ0My0wLjE5IDAuODIyLTAuMzggMS4yMDItMC42OTZ2LTIuMjc3aC0yLjUzdjAuNjk2ek00OC40NzcgMTguNzJsLTIuMjc3IDYuMTM1aDAuODIybDAuNjMyLTEuODM0aDIuNTNsMC42OTYgMS44MzRoMC44ODVsLTIuNDY3LTYuMTM1aC0wLjgyMnpNNDcuOTA4IDIyLjMyNWwwLjYzMi0xLjc3MWMwLjEyNi0wLjM4IDAuMjUzLTAuNzU5IDAuMzE2LTEuMTM4IDAuMDYzIDAuMzE2IDAuMjUzIDAuNzU5IDAuNDQzIDEuMjY1bDAuNjMyIDEuNzA4aC0yLjAyNHpNOTYuMzU0IDEyLjY0OHYwYzAuMzc5IDAuNDQzIDAuODIyIDAuODIyIDEuMjAyIDEuMjAyIDAuMzE2LTAuMDYzIDAuNjMyLTAuMTI2IDAuOTQ5LTAuMTI2LTEuMjAyIDIuMDI0LTUuNTAyIDAuNjMyLTQuOTk2LTIuMTUgMC4zMTYtMS41ODEgMS44OTctMy4wOTkgMy45MjEtMi4yNzcgMC41NjkgMC4yNTMgMC44ODUgMC42MzIgMS4yNjUgMS4wMTIgMC4xMjYgMC4wNjMgMS40NTUtMC4zOCAxLjcwOC0wLjUwNi0wLjUwNi0xLjQ1NS0yLjQwMy0yLjQ2Ny00LjU1NC0yLjQwMy0wLjM3OSAwLjEyNi0wLjgyMiAwLjE5LTEuMjAyIDAuMzE2LTEuMDc1IDAuMzc5LTIuMDI0IDEuMjY1LTIuNTMgMi4yNzctMS41MTggMy4zNTIgMS4zMjggNy4zMzYgNS4xODYgNi4zODggMC45NDktMC4yNTMgMS41ODEtMC42OTYgMi4yMTQtMS4yMDItMC4wNjMgMC4xOS0wLjA2MyAwLjQ0My0wLjEyNiAwLjYzMiAwLjQ0MyAwLjM4IDAuODIyIDAuODIyIDEuMjY1IDEuMjAyIDAuMzE2LTEuNzA4IDAuNTY5LTMuNDE1IDAuODg1LTUuMTg2LTEuNjQ0IDAuMjUzLTMuNDE1IDAuNTY5LTUuMTg2IDAuODIyek02Mi43NyAxNi4xOWgyLjE1Yy0xLjEzOC0yLjkwOS0yLjIxNC01Ljg4Mi0zLjM1Mi04Ljc5MWgtMi4wODdjLTEuMDc1IDIuODQ2LTIuMjE0IDUuNjkyLTMuMjg5IDguNTM4IDAtMi44NDYgMC01LjY5MiAwLTguNTM4aC0yLjg0NmMtMC42OTYgMi4wMjQtMS4zMjggMy45ODQtMi4wMjQgNi4wMDgtMC42OTYtMi4wMjQtMS4zOTEtMy45ODQtMi4wODctNi4wMDhoLTIuODQ2djguNzkxaDEuODk3di02LjA3MmMwLjc1OSAyLjAyNCAxLjQ1NSA0LjA0OCAyLjIxNCA2LjA3MmgxLjU4MWMwLjY5Ni0yLjAyNCAxLjQ1NS00LjExMSAyLjE1LTYuMTM1IDAgMi4wMjQgMCA0LjExMSAwIDYuMTM1aDMuODU4YzAuMjUzLTAuNjMyIDAuNDQzLTEuMjY1IDAuNjk2LTEuOTYxIDEuMTM4IDAgMi4yNzcgMCAzLjM1MiAwIDAuMjUzIDAuNjk2IDAuNDQzIDEuMzI4IDAuNjMyIDEuOTYxek02MS42MzIgMTIuNzc1aC0yLjI3N2MwLjM4LTEuMDc1IDAuNzU5LTIuMDg3IDEuMTM4LTMuMTYyIDAuMzggMS4wMTIgMC43NTkgMi4wODcgMS4xMzggMy4xNjJ2MHpNMzEuMTQ4IDkuNzM5Yy0wLjMxNi0xLjM5MS0wLjYzMi0yLjg0Ni0xLjAxMi00LjIzNy0wLjUwNi0yLjE1LTAuNzU5LTQuMDQ4LTMuNDE1LTQuMDQ4LTEuMjAyIDAuMjUzLTIuNDAzIDAuNTA2LTMuNjY4IDAuODIyIDAuODIyIDAuMTkgMS42NDQgMC4zOCAyLjUzIDAuNTY5IDAuOTQ5IDAuMzE2IDEuODM0IDAuODIyIDIuNzgzIDEuMTM4LTAuNjMyIDEuNjQ0LTEuMjY1IDMuMzUyLTEuODM0IDQuOTk2LTAuOTQ5LTAuNjMyLTEuODk3LTEuMjAyLTMuMjI1LTEuNTE4LTAuNjMyLTAuMTktMS4zOTEtMC4yNTMtMi4wODctMC4zMTYtMi4yNzctMC4xOS0zLjY2OCAwLjY5Ni0zLjkyMSAyLjI3Ny0wLjA2MyAwLjUwNiAwIDEuMDc1IDAuMTkgMS4zOTEgMC44ODUgMS40NTUgMy4wMzYgMi4wODcgNC42OCAyLjc4MyAzLjU0MiAxLjQ1NSA2LjcwNCAyLjg0NiA3LjU4OSA3LjE0NyAwLjE5IDAuODg1IDAuMjUzIDIuMTUgMCAzLjA5OS0wLjE5IDAuODIyLTAuNDQzIDEuNjQ0LTAuODIyIDIuMjc3LTAuMTkgMC4yNTMtMC4zOCAwLjUwNi0wLjUwNiAwLjc1OSAwIDAtMC4wNjMgMC4wNjMtMC4wNjMgMC4wNjMgMC42MzItMC4xMjYgMS4yNjUtMC4zMTYgMS44MzQtMC40NDMgMS42NDQtMC40NDMgMi45NzMtMC41NjkgMy43MzEtMS44MzRzMC0zLjE2Mi0wLjMxNi00LjM2NGMtMC44MjItMy41NDItMS42NDQtNy4wMjAtMi40NjctMTAuNTYyek0xNy4zNiAxNy43MDhjLTMuNTQyLTEuNTE4LTguNDEyLTQuODA3LTYuNTc3LTEwLjQzNSAwLjM4LTEuMTM4IDEuMDEyLTEuNzcxIDEuNjQ0LTIuNTkzaC0wLjEyNmMtMC41MDYgMC4xMjYtMC45NDkgMC4yNTMtMS4zOTEgMC4zMTYtMi4wODcgMC41MDYtNC45OTYgMC42MzItNS44MTkgMi40NjctMC42MzIgMS4zOTEgMC4yNTMgNC4wNDggMC42MzIgNS40MzkgMC45NDkgNC4wNDggMS44OTcgOC4wOTUgMi45MDkgMTIuMjA2IDAuNDQzIDEuNzA4IDAuNTY5IDMuOTg0IDEuNzcxIDQuOTMzIDEuNTE4IDEuMTM4IDIuOTA5IDAuMTkgNC42MTcgMC4wNjMtMC41MDYtMC4xOS0xLjA3NS0wLjM4LTEuNTgxLTAuNTY5LTAuOTQ5LTAuNDQzLTEuODM0LTAuODg1LTIuNzgzLTEuMzI4IDAuNzU5LTEuNzA4IDEuNTE4LTMuNDE1IDIuMjc3LTUuMTIzIDAuMTkgMC4xMjYgMC4zOCAwLjMxNiAwLjYzMiAwLjQ0MyAwLjUwNiAwLjI1MyAwLjk0OSAwLjU2OSAxLjQ1NSAwLjgyMiAyLjA4NyAxLjA3NSA3LjMzNiAxLjg5NyA4LjE1OS0wLjk0OSAwLjE5LTAuNjMyIDAuMDYzLTEuNTgxLTAuMTI2LTIuMDg3LTEuMDEyLTEuOTYxLTMuNjY4LTIuNzItNS42OTItMy42MDV6TTQyLjcyMiAxMC43NTFjLTAuNjMyLTAuMTktMS43MDgtMC4yNTMtMS44OTctMC44MjItMC42MzItMS41ODEgMy4wMzYtMS45NjEgMy4wMzYgMCAwLjYzMiAwIDEuMzI4IDAgMS45NjEgMCAwLjA2My0zLjQxNS01Ljc1NS0zLjY2OC02LjgzLTEuMDc1LTEuMDc1IDIuNDY3IDEuNTE4IDMuMjI1IDMuMTYyIDMuNjY4IDAuNzU5IDAuMTkgMS44MzQgMC4zMTYgMi4wMjQgMS4xMzggMC4yNTMgMS4xMzgtMS40NTUgMS4zOTEtMi40NjcgMS4xMzhzLTAuOTQ5LTAuNjMyLTEuMjY1LTEuNTE4Yy0wLjEyNi0wLjEyNi0xLjU4MS0wLjA2My0xLjg5Ny0wLjA2My0wLjA2MyAzLjY2OCA1Ljg4MiA0LjExMSA3LjMzNiAxLjU4MSAwLjE5LTAuMzE2IDAuMzE2LTAuODg1IDAuMjUzLTEuMzkxLTAuMzE2LTEuOTYxLTEuNjQ0LTIuMTUtMy40MTUtMi42NTZ6TTQyLjIxNiAyMy4wMjBjLTAuMTI2IDAuNDQzLTAuMjUzIDAuNzU5LTAuMzE2IDEuMDEyLTAuMDYzLTAuMTktMC4xMjYtMC41MDYtMC4zMTYtMC44ODVsLTEuNDU1LTQuMzAxaC0xLjEzOHY2LjAwOGgwLjc1OXYtNS4xODZsMS43NzEgNS4xODZoMC42OTZsMS43NzEtNS4xMjN2NS4xMjNoMC43NTl2LTYuMTM1aC0xLjA3NWwtMS40NTUgNC4zMDF6TTY4LjMzNiAxMC43NTFjLTAuNjMyLTAuMTktMS42NDQtMC4yNTMtMS44MzQtMC44ODUtMC4zNzktMS41ODEgMy4wOTktMS43NzEgMy4wOTkgMC4wNjMgMC42MzIgMCAxLjMyOCAwIDEuOTYxIDAgMC0zLjU0Mi01Ljc1NS0zLjczMS02LjgzLTEuMTM4LTEuMDEyIDIuNDY3IDEuNTgxIDMuMTYyIDMuMjI1IDMuNjA1IDAuODIyIDAuMTkgMS44OTcgMC4zMTYgMi4wMjQgMS4xMzggMC4xOSAxLjAxMi0xLjI2NSAxLjMyOC0yLjI3NyAxLjEzOC0wLjgyMi0wLjE5LTEuMzkxLTAuNjMyLTEuNDU1LTEuNTgxaC0xLjg5N2MtMC4wNjMgMy42MDUgNS42OTIgNC4xNzQgNy4yMSAxLjcwOCAwLjI1My0wLjM4IDAuNDQzLTEuMDc1IDAuMzE2LTEuNzcxLTAuNDQzLTEuNTgxLTEuODk3LTEuODM0LTMuNTQyLTIuMjc3ek04OS4yNyAxMy4yMTdjLTEuMjY1LTEuOTYxLTIuNDY3LTMuOTIxLTMuNzMxLTUuODE5aC0yLjAyNHY4Ljc5MWgxLjg5N2MwLTEuOTYxIDAtMy44NTggMC01LjgxOXYwYzEuMjAyIDEuOTYxIDIuNDY3IDMuODU4IDMuNjY4IDUuODE5aDIuMDI0di04Ljg1NGgtMS44MzRjMCAxLjk2MSAwIDMuOTIxIDAgNS44ODJ6TTc3Ljc1OSAxNi4xOWgyLjAyNHYtOC44NTRoLTIuMDI0djMuMzUyaC0zLjYwNXYtMy4zNTJoLTIuMDI0djguNzkxaDIuMDI0di0zLjc5NWgzLjYwNXYzLjg1OHpNODAuMjI2IDIzLjUyNmwtMy4xNjItNC44MDdoLTAuODIydjYuMTM1aDAuNzU5di00LjgwN2wzLjE2MiA0LjgwN2gwLjgyMnYtNi4xMzVoLTAuNzU5djQuODA3ek04MC42NjkgMTYuMTloMS45NjF2LTguODU0aC0xLjk2MXY4Ljg1NHpNNzMuMjA2IDI0Ljg1NGgwLjgyMnYtNi4xMzVoLTAuODIydjYuMTM1ek02Ny45NTYgMjMuNzE2bDMuMzUyLTQuMjM3di0wLjY5NmgtNC4zMDF2MC42OTZoMy4zNTJjLTAuMTkgMC4xOS0wLjM3OSAwLjQ0My0wLjYzMiAwLjY5NmwtMy4wOTkgMy45MjF2MC43NTloNC43NDN2LTAuNjk2aC0zLjg1OGwwLjQ0My0wLjQ0M3pNNjIuMzI4IDE4LjcybC0yLjM0IDYuMTM1aDAuODIybDAuNjMyLTEuODM0aDIuNTNsMC42OTYgMS44MzRoMC44ODVsLTIuNDY3LTYuMTM1aC0wLjc1OXpNNjEuNzU4IDIyLjMyNWwwLjYzMi0xLjc3MWMwLjEyNi0wLjM4IDAuMjUzLTAuNzU5IDAuMzE2LTEuMTM4IDAuMDYzIDAuMzE2IDAuMjUzIDAuNzU5IDAuNDQzIDEuMjY1bDAuNjMyIDEuNzA4aC0yLjAyNHpNODQuMDIxIDIyLjA3MmgzLjM1MnYtMC42OTZoLTMuMzUydi0xLjg5N2gzLjU0MnYtMC42OTZoLTQuMzY0djYuMDcyaDQuNDl2LTAuNjk2aC0zLjY2OHYtMi4wODd6IiBmaWxsPSIjODE4Mzg3Ij48L3BhdGg+Cjwvc3ZnPgo=</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:30:35.954+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mimeType" sv:type="String">
+          <sv:value>image/svg+xml</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:created" sv:type="Date">
+          <sv:value>2014-11-12T14:30:37.815+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:createdBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+          <sv:value>2014-11-12T14:30:37.815+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+          <sv:value>superuser</sv:value>
+        </sv:property>
+        <sv:property sv:name="size" sv:type="Long">
+          <sv:value>5654</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>0</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
