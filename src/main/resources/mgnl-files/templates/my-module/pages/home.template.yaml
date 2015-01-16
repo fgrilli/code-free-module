@@ -1,18 +1,18 @@
-dialog: my-module:pageProperties
+dialog: my-module:pages/pageProperties
 renderType: freemarker
 templateScript: /my-module/pages/home.ftl
 title: My module home
 visible: true
 areas:
   promo:
-    dialog: my-module:promo
+    dialog: my-module:pages/promo
     templateScript: /my-module/areas/promo.ftl
     type: list
     availableComponents:
       box:
         id: my-module:components/box
   about:
-    dialog: my-module:about
+    dialog: my-module:pages/about
     templateScript: /my-module/areas/about.ftl
     type: single
     availableComponents:
@@ -33,11 +33,11 @@ areas:
         form:
           id: form:components/form
   benefits:
-      dialog: my-module:benefits
+      dialog: my-module:pages/benefits
       templateScript: /my-module/areas/benefits.ftl
       type: noComponent
   vacancies:
-      dialog: my-module:vacancies
+      dialog: my-module:pages/vacancies
       i18nBasename: my.company.messages
       templateScript: /my-module/areas/vacancies.ftl
       type: noComponent
