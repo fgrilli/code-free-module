@@ -6,7 +6,7 @@ actions:
 form:
   tabs:
     - name: tabText
-      label: Page properties
+      label: Page properties 2
       fields:
         - name: careers
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition

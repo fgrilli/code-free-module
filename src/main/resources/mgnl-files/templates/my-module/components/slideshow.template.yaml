@@ -1,4 +1,4 @@
-dialog: my-module:slideshow
+dialog: my-module:components/slideshow
 renderType: freemarker
 templateScript: /my-module/components/slideshow.ftl
 title: Slideshow
